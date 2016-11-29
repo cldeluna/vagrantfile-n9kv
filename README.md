@@ -1,7 +1,26 @@
 # Vagrantfile for Cisco Nexus 9000v
 
 Configuration Notes
+
 http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/nx-osv/configuration/guide/b_NX-OSv_9000/b_NX-OSv_chapter_01.pdf
+
+###Setting up Vagrant Environment
+
+- Download *nxosv-final.7.0.3.I5.1.box* or latest from Cisco.com (Account required).
+- move to purpose named directory
+  Example: /d/Dropbox/scripts/vagrant/nxosv
+
+  within ./nxosv directory:
+  
+```  
+vagrant box add --name n9kv1 nxosv-final.7.0.3.I5.1.box
+vagrant box list
+vagrant init n9kv1
+
+```
+The vagrant init command generates a single node, uncustomized VM instance.  This can be useful in certain situations and so I always save it as Vagrantfile.original.
+
+Note: Started with Vagrantfile example from Configuration Notes
 
 Master Repository
 claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
