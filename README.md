@@ -22,12 +22,14 @@ vagrant init n9kv1
 The vagrant box add command adds a box named "n9kv1" based on the *nxosv-final.7.0.3.I5.1.box* box image to your box repository.
 The vagrant init command generates a single node, uncustomized VM instance.  This can be useful in certain situations and so I always save it as Vagrantfile.original.
 
+```
 Claudia@Mac-mini:~/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv$ vagrant box list
 cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
 **n9kv1                                                 (virtualbox, 0)**
 ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
 vEOS-lab-4.16.6M                                      (virtualbox, 0)
 Claudia@Mac-mini:~/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv$ 
+```
 
 ## Vagrantfiles
 
