@@ -22,6 +22,14 @@ or later version and KVM-QEMU 2.0.
 - If you only need a standalone NX-OSv 9000 node, the NX-OSv 9000 can also be deployed on a laptop or and
 Apple Mac Pro with a virtual box hypervisor as long as your laptop meets basic resource requirements.
 
+###Restrictions
+
+- For the Oracle VM VirtualBox hypervisor, the SATA block device must be used due to the image size
+increase from the 7.0(3)I5(1) branch which impacts the legacy bios IDE controller size limit. SATA
+block devices also significantly improve disk performance, especially for initial boot up time. The IDE
+controller can be used in the VMware ESXi and the KVM/QEMU hypervisor, but it is significantly
+slower than the SATA controller.
+
 ###Setting up Vagrant Environment
 
 - Download *nxosv-final.7.0.3.I5.1.box* or latest from Cisco.com (Account required).
