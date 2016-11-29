@@ -1,0 +1,75 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.define "n9k01" do |n9k01|
+
+    n9k01.vm.box = "n9kv1"
+    n9k01.vm.hostname = "n9k-01"
+    #n9k01.ssh.insert_key = false
+    #The time in seconds that Vagrant will wait for the machine to boot and be accessible. 
+    #By default this is 300 seconds (5 minutes).
+    # 420 = 7 minutes
+    n9k01.vm.boot_timeout = 60
+    n9k01.vm.post_up_message = "Nexus 9000v 01"
+    n9k01.vm.synced_folder '.', '/vagrant', disabled: true
+    n9k01.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+    n9k01.vm.network "public_network",use_dhcp_assigned_default_route: true, bridge: "en0: Ethernet"
+    n9k01.vm.network "private_network", ip: "192.168.1.2", auto_config: false, virtualbox__intnet: "nxosv_network1"
+    n9k01.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network2"
+    n9k01.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network3"
+    n9k01.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network4"
+    n9k01.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network5"
+    n9k01.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network6"
+    n9k01.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network7"
+    n9k01.vm.provider :virtualbox do |vb|
+      vb.name = "n9k-01"
+      vb.memory = "8192"
+      vb.customize ["modifyvm", :id, "--uart1", "0x3f8", "4"]
+      vb.customize ["modifyvm", :id, "--uartmode1", "server", '\\\.\pipe\n9k1']
+      vb.customize ['modifyvm',:id,'--nicpromisc2','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc3','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc4','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc5','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc6','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc7','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc8','allow-all']
+    end
+  end
+
+  config.vm.define "n9k02" do |n9k02|
+    n9k02.vm.box = "n9kv1"
+    n9k02.vm.hostname = "n9k-02"
+    #n9k02.ssh.insert_key = false
+    n9k02.vm.boot_timeout = 420
+    n9k02.vm.post_up_message = "Nexus 9000v 02"
+    n9k02.vm.synced_folder '.', '/vagrant', disabled: true
+    n9k02.vm.network "forwarded_port", guest: 80, host: 8081, auto_correct: true
+    n9k02.vm.network "public_network",use_dhcp_assigned_default_route: true, bridge: "en0: Ethernet"
+    n9k02.vm.network "private_network", ip: "192.168.1.3", auto_config: false, virtualbox__intnet: "nxosv_network1"
+    n9k02.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network2"
+    n9k02.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network3"
+    n9k02.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network4"
+    n9k02.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network5"
+    n9k02.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network6"
+    n9k02.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network7"
+    n9k02.vm.provider :virtualbox do |vb|
+      vb.name = "n9k-02"
+      vb.memory = "8192"
+      vb.customize ["modifyvm", :id, "--uart1", "off"]
+      vb.customize ["modifyvm", :id, "--uartmode1", "disconnected"]
+      vb.customize ["modifyvm", :id, "--uart2", "0x2f8", "3"]
+      #vb.customize ["modifyvm", :id, "--uartmode2", "server", '\\\.\pipe\n9k2']
+      vb.customize ["modifyvm", :id, "--uartmode2", "tcpserver", "2002"]
+      vb.customize ["modifyvm",:id,"--nicpromisc2","allow-all"]
+      vb.customize ['modifyvm',:id,'--nicpromisc3','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc4','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc5','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc6','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc7','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc8','allow-all']
+    end
+  end
+
+end
