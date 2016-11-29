@@ -4,6 +4,24 @@ Configuration Notes
 
 http://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus9000/sw/7-x/nx-osv/configuration/guide/b_NX-OSv_9000/b_NX-OSv_chapter_01.pdf
 
+###NX-OSv 9000 Resource Requirements
+
+The NX-OSv 9000 uses the Cisco Nexus 9000 Series hardware software image. It requires the minimum
+resources as shown in the following list. These resources are generally not oversubscribed on any server.
+
+- 8G memory
+- 1-4 vCPUs
+- 4G hard disk
+- 1 serial port
+- 1 network interface card (NIC)
+
+###Server Software Requirements
+- The NX-OSv 9000 can run on Cisco Unified ComputingSystem (UCS)servers orserversfrom leading vendors
+thatsupport VMware ESXi 5.1 (Post Build 1065491/ ESXi 5.5) or the combination of Ubuntu Linux 14.04LTS
+or later version and KVM-QEMU 2.0.
+- If you only need a standalone NX-OSv 9000 node, the NX-OSv 9000 can also be deployed on a laptop or and
+Apple Mac Pro with a virtual box hypervisor as long as your laptop meets basic resource requirements.
+
 ###Setting up Vagrant Environment
 
 - Download *nxosv-final.7.0.3.I5.1.box* or latest from Cisco.com (Account required).
