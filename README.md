@@ -82,9 +82,13 @@ claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/
 
 
 Master Repository
+
 claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+
 $ pwd
+
 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+
 
 ```
 claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv

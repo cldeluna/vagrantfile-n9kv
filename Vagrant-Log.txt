@@ -1,0 +1,4546 @@
+
+claud@DESKTOP-S41OCM2 MINGW64 ~
+$ pwd
+/c/Users/claud
+
+claud@DESKTOP-S41OCM2 MINGW64 ~
+$ cd c:
+
+claud@DESKTOP-S41OCM2 MINGW64 /c
+$ ls
+'$GetCurrent'/   DELL/                      NVIDIA/           'Program Files (x86)'/  'System Volume Information'/
+'$Recycle.Bin'/  dell.sdr                   OneDriveTemp/     ProgramData/            Users/
+Apps/            'Documents and Settings'@  pagefile.sys      Python27/               Windows/
+bootmgr          Drivers/                   PerfLogs/         Recovery/               Windows10Upgrade/
+BOOTNXT          hiberfil.sys               'Program Files'/  swapfile.sys
+
+claud@DESKTOP-S41OCM2 MINGW64 /c
+$ pwd
+/c
+
+claud@DESKTOP-S41OCM2 MINGW64 /c
+$ cd d:
+
+claud@DESKTOP-S41OCM2 MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/    cisco-onepk-vm/                    ISO/           'System Volume Information'/  Windows10Upgrade/
+300-Peterborough/  Config.Msi/                        ProgramFiles/  vagrant/
+acisim_combined/   'Dropbox (Indigo Wire Networks)'/  Recovery/      VirtualMachines/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d
+$ cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)
+$ ls
+2013-Dad/
+2DEA777D00000578-3306656-A_new_study_challenges_the_Nice_Model_according_to_which_the_Sol-a-7_1446822659335.jpg
+340534main_E-9_full.jpg
+'a8d9bd8b59904b2e1a3fc72c6e4161c0 (1).jpg'
+a8d9bd8b59904b2e1a3fc72c6e4161c0.jpg
+Apps/
+ba246221348493.562ffb06a28b1.jpg
+'Camera Uploads'/
+'Data Center'/
+DD-Desktop/
+desktop.ini
+'earth moon 2.jpg'
+earth-day-2016-5741289212477440.2-5733935958982656-ror.jpg
+fgfs-screen-006.png
+File/
+'Getting Started.pdf'
+'iPad intro.pdf'
+'iPhone intro.pdf'
+kepler_all-planets_may2016.jpg
+lights-at-night-117936322__363087b.jpg
+msc-notes.txt
+NASA-Concept-7bdeb685-1c10-337a-88cb-600cdda727e4.jpeg
+'NSX TOI Content'/
+Photos/
+Planets2013.svg.png
+ppj_hp_pluto.jpg
+Private/
+Private-All/
+Private-Photographs/
+Public/
+PublicShare/
+pyscripts/
+ScannerPro/
+scripts/
+solarsystem.jpg
+sonnensystem.jpg
+Temp/
+TLEGoldenGate_rba_d.jpg
+Tools/
+Training-Certifications/
+Upload/
+Work/
+Work-Modeling/
+X-1_in_flight.JPG
+x1enginerun.jpg
+x1sm_2.jpg
+yeager70.jpg
+yeager90.jpg
+'Zane Grey Ter 3024'/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)
+$ cd scripts/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ ls
+Ansible-StagingComparison.xlsx  batch/  docker/  perl/  python/  readme.MD.template  vagrant/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ cd docker
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ ls
+trusty-ansible/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ cd trusty-ansible/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ ls
+Dockerfile  trusty-ansible-image/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ ls -al
+total 4
+drwxr-xr-x 1 claud 197609   0 Nov 26 10:22 ./
+drwxr-xr-x 1 claud 197609   0 Jun  9 17:48 ../
+-rw-r--r-- 1 claud 197609 668 Nov 26 10:20 Dockerfile
+drwxr-xr-x 1 claud 197609   0 Nov 26 10:28 trusty-ansible-image/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ rm trusty-ansible-image/
+rm: cannot remove 'trusty-ansible-image/': Is a directory
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ rm -r trusty-ansible-image/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ ls
+Dockerfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ docker images
+An error occurred trying to connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json: open //./pipe/docker_engine: The system cannot find the file specified.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ ls
+Dockerfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ ls -al
+total 4
+drwxr-xr-x 1 claud 197609   0 Nov 26 10:42 ./
+drwxr-xr-x 1 claud 197609   0 Jun  9 17:48 ../
+-rw-r--r-- 1 claud 197609 668 Nov 26 10:20 Dockerfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ cat Dockerfile
+# Latest Ubuntu LTS
+
+FROM ubuntu:14.04
+
+MAINTAINER Claudia de Luna <claudia@indigowire.net>
+
+RUN apt-get -y update && \
+    apt-get install -y python-yaml python-jinja2 python-httplib2 python-keyczar python-paramiko python-setuptools python-pkg-resources git python-pip
+
+RUN apt-get install -yq software-properties-common && \
+    apt-add-repository -y ppa:ansible/ansible && \
+    apt-get update -q && \
+    apt-get install -yq ansible
+
+RUN apt-get install -y tree &&\
+    apt-get install -y wget
+
+RUN pip install argparse && \
+        pip install requests
+
+RUN apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+WORKDIR /ansible
+
+EXPOSE 22
+
+
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ ls
+trusty-ansible/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ cd trusty-ansible/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ ls
+Dockerfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ mkdir tmp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ cd tmp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp
+$ ls
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ cd python/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python
+$ ls
+2015/  2016/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python
+$ cd 2016
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016
+$ ls
+__init__.py*          aci_rotation/  dd_aci_buildout/  dns/                net_compare/           PyNetACert/  temp/
+ACI_Configuration/    Ansible/       dd_net_compare/   gen-cisco-scripts/  PyNet_LearningPython/  python_oop/  videos/
+aci_fabric_buildout/  cat-scripts/   DevNetCode/       ipv6/               PyNetA/                qa-scripts/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016
+$ cd PyNetACert/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert (master)
+$ ls
+PyNet_Devices.json  PyNet_Devices.xlsx  PyNetAvENV/  README.md  week1/  week2/  week3/  week4/  week5/  week7/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert (master)
+$ cd week5
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ ls
+access_switch.j2   access_switch2.j2   access_switch3.j2   ansible.cfg  CFG2/  GEN_CONFIGS/  roles/
+access_switch.yml  access_switch2.yml  access_switch3.yml  CFG/         CFG3/  hosts         site.yml
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ ls
+access_switch.j2   access_switch2.j2   access_switch3.j2   ansible.cfg  CFG2/  GEN_CONFIGS/  roles/
+access_switch.yml  access_switch2.yml  access_switch3.yml  CFG/         CFG3/  hosts         site.yml
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../PyNet_Devices.json
+        ../PyNet_Devices.xlsx
+        ../week1/test.yml
+        ../week1/vince-test1.py
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-125437.json
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-181530.json
+        ./
+        ../week7/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../PyNet_Devices.json
+        ../PyNet_Devices.xlsx
+        ../week1/test.yml
+        ../week1/vince-test1.py
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-125437.json
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-181530.json
+        ./
+        ../week7/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git add access_switch*
+warning: CRLF will be replaced by LF in week5/access_switch.j2.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch2.j2.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch2.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch3.j2.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch3.yml.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   access_switch.j2
+        new file:   access_switch.yml
+        new file:   access_switch2.j2
+        new file:   access_switch2.yml
+        new file:   access_switch3.j2
+        new file:   access_switch3.yml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../PyNet_Devices.json
+        ../PyNet_Devices.xlsx
+        ../week1/test.yml
+        ../week1/vince-test1.py
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-125437.json
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-181530.json
+        ansible.cfg
+        hosts
+        roles/
+        site.yml
+        ../week7/
+
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git add ./CFG*
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   access_switch.j2
+        new file:   access_switch.yml
+        new file:   access_switch2.j2
+        new file:   access_switch2.yml
+        new file:   access_switch3.j2
+        new file:   access_switch3.yml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../PyNet_Devices.json
+        ../PyNet_Devices.xlsx
+        ../week1/test.yml
+        ../week1/vince-test1.py
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-125437.json
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-181530.json
+        ansible.cfg
+        hosts
+        roles/
+        site.yml
+        ../week7/
+
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ cd CFG
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5/CFG (master)
+$ ls
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5/CFG (master)
+$ git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+[master e112eda] Week5/Class5 Ansible Playbooks for Exercises 1-3
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in week5/access_switch.j2.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch2.j2.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch2.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch3.j2.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week5/access_switch3.yml.
+The file will have its original line endings in your working directory.
+ 6 files changed, 171 insertions(+)
+ create mode 100644 week5/access_switch.j2
+ create mode 100644 week5/access_switch.yml
+ create mode 100644 week5/access_switch2.j2
+ create mode 100644 week5/access_switch2.yml
+ create mode 100644 week5/access_switch3.j2
+ create mode 100644 week5/access_switch3.yml
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5/CFG (master)
+$ git add access_switch*
+fatal: pathspec 'access_switch*' did not match any files
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5/CFG (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git add access_switch*
+warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+[master warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+8d1cbaf] Week5/Class5 Ansible Playbooks for Exercises 1-3
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git push -u origin master
+Enter passphrase for key '/c/Users/claud/.ssh/id_rsa':
+Counting objects: 13, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 1.73 KiB | 0 bytes/s, done.
+Total 13 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), completed with 1 local objects.
+To git@github.com:cldeluna/pynet-py-ansible-cert.git
+   c22a480..8d1cbaf  master -> master
+Branch master set up to track remote branch master from origin.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git add access_switch*
+warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+[master warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+94d66eb] Week5/Class5 Ansible Playbooks for Exercises 1-3
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in week5/access_switch.yml.
+The file will have its original line endings in your working directory.
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git push -u origin master
+Enter passphrase for key '/c/Users/claud/.ssh/id_rsa':
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 396 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To git@github.com:cldeluna/pynet-py-ansible-cert.git
+   8d1cbaf..94d66eb  master -> master
+Branch master set up to track remote branch master from origin.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../PyNet_Devices.json
+        ../PyNet_Devices.xlsx
+        ../week1/test.yml
+        ../week1/vince-test1.py
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-125437.json
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-181530.json
+        README.md
+        ansible.cfg
+        hosts
+        roles/
+        site.yml
+        ../week7/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git add README.md
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git commit -m "Updated README"
+[master 22882f9] Updated README
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 86 insertions(+)
+ create mode 100644 week5/README.md
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ git push -u origin master
+Enter passphrase for key '/c/Users/claud/.ssh/id_rsa':
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.15 KiB | 0 bytes/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To git@github.com:cldeluna/pynet-py-ansible-cert.git
+   94d66eb..22882f9  master -> master
+Branch master set up to track remote branch master from origin.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week5 (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert (master)
+$ ls
+PyNet_Devices.json  PyNet_Devices.xlsx  PyNetAvENV/  README.md  week1/  week2/  week3/  week4/  week5/  week6/  week7/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert (master)
+$ cd week6
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ ls
+cisco_acl.txt  README.md  week6_ex1.yml  week6_ex1a.yml  week6_ex2.yml  week6_ex3.yaml  week6_ex4.yml  week6_ex5.yml
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../PyNet_Devices.json
+        ../PyNet_Devices.xlsx
+        ../week1/test.yml
+        ../week1/vince-test1.py
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-125437.json
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-181530.json
+        ../week5/ansible.cfg
+        ../week5/hosts
+        ../week5/roles/
+        ../week5/site.yml
+        ./
+        ../week7/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ git add week6*
+warning: CRLF will be replaced by LF in week6/week6_ex1.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex1a.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex2.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex3.yaml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex4.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex5.yml.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ git add README.md
+warning: CRLF will be replaced by LF in week6/README.md.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ git add cisco_acl.txt
+warning: CRLF will be replaced by LF in week6/cisco_acl.txt.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ git commit -m "Week6 Exercises - all working"
+[master 2663b27] Week6 Exercises - all working
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in week6/README.md.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/cisco_acl.txt.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex1.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex1a.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex2.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex3.yaml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex4.yml.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week6/week6_ex5.yml.
+The file will have its original line endings in your working directory.
+ 8 files changed, 527 insertions(+)
+ create mode 100644 week6/README.md
+ create mode 100644 week6/cisco_acl.txt
+ create mode 100644 week6/week6_ex1.yml
+ create mode 100644 week6/week6_ex1a.yml
+ create mode 100644 week6/week6_ex2.yml
+ create mode 100644 week6/week6_ex3.yaml
+ create mode 100644 week6/week6_ex4.yml
+ create mode 100644 week6/week6_ex5.yml
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ git push -u origin master
+Enter passphrase for key '/c/Users/claud/.ssh/id_rsa':
+Counting objects: 11, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 4.05 KiB | 0 bytes/s, done.
+Total 11 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 1 local objects.
+To git@github.com:cldeluna/pynet-py-ansible-cert.git
+   22882f9..2663b27  master -> master
+Branch master set up to track remote branch master from origin.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ ls
+cisco_acl.txt  README.md  week6_ex1.yml  week6_ex1a.yml  week6_ex2.yml  week6_ex3.yaml  week6_ex4.yml  week6_ex5.yml
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week6 (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert (master)
+$ cd week7
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ ls
+argparse_action.py*  arista_ex1.py*  arista_ex2.py*  README.md
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../PyNet_Devices.json
+        ../PyNet_Devices.xlsx
+        ../week1/test.yml
+        ../week1/vince-test1.py
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-125437.json
+        ../week3/arctic-sw01.uwaco.net-ChartData-20161024-181530.json
+        ../week5/ansible.cfg
+        ../week5/hosts
+        ../week5/roles/
+        ../week5/site.yml
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ ls
+argparse_action.py*  arista_ex1.py*  arista_ex2.py*  README.md
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ git add argparse_action.py
+warning: CRLF will be replaced by LF in week7/argparse_action.py.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ git add arista*
+warning: CRLF will be replaced by LF in week7/arista_ex1.py.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week7/arista_ex2.py.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ git add README.md
+warning: CRLF will be replaced by LF in week7/README.md.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ git commit -m "Week7 exercises from non-Cert class"
+[master 7ff0e7d] Week7 exercises from non-Cert class
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in week7/README.md.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week7/argparse_action.py.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week7/arista_ex1.py.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week7/arista_ex2.py.
+The file will have its original line endings in your working directory.
+ 4 files changed, 538 insertions(+)
+ create mode 100644 week7/README.md
+ create mode 100644 week7/argparse_action.py
+ create mode 100644 week7/arista_ex1.py
+ create mode 100644 week7/arista_ex2.py
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ git push -u origin master
+Enter passphrase for key '/c/Users/claud/.ssh/id_rsa':
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 5.46 KiB | 0 bytes/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To git@github.com:cldeluna/pynet-py-ansible-cert.git
+   2663b27..7ff0e7d  master -> master
+Branch master set up to track remote branch master from origin.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert/week7 (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016/PyNetACert (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python/2016
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/python
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ cd vagrant/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ ls
+ansible/    csr1kv/   freebsd-10/  ios-xr/  pluralsight/  quagga-trusty/  veos/
+archlinux/  cumulus/  ios-xe/      mint17/  quagga/       quickstart/     veos-custom/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ cd ios-xr
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xr (master)
+$ ls
+download/  Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xr (master)
+$ cd download/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xr/download (master)
+$ ls
+iosxrv-fullk9-x64.box
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xr/download (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xr (master)
+$ ls
+download/  Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xr (master)
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xr (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ ls
+ansible/    csr1kv/   freebsd-10/  ios-xr/  pluralsight/  quagga-trusty/  veos/
+archlinux/  cumulus/  ios-xe/      mint17/  quagga/       quickstart/     veos-custom/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ cd csr1kv/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ ls
+Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ ls
+ansible/    csr1kv/   freebsd-10/  ios-xr/  pluralsight/  quagga-trusty/  veos/
+archlinux/  cumulus/  ios-xe/      mint17/  quagga/       quickstart/     veos-custom/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ cd ios-xe/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$ ls
+ansible/                         rtr1_2016-08-04_17-38-48.log  rtr2_2016-08-05_14-17-15.log
+control_2016-08-02_18-33-00.log  rtr1_2016-08-04_18-02-17.log  rtr3_2016-08-02_20-48-20.log
+control_2016-08-05_14-17-31.log  rtr1_2016-08-04_18-02-46.log  rtr3_2016-08-04_17-48-21.log
+control_2016-08-05_16-19-33.log  rtr1_2016-08-05_10-21-41.log  UsersClaudia.vagrant.dboxescisco-csr1kv
+provision-trustyansible.sh*      rtr1_2016-08-05_14-17-12.log  Vagrantfile
+README.md                        rtr2_2016-08-02_20-47-59.log  Vagrantfile.2rtr
+rtr1_2016-08-02_20-36-46.log     rtr2_2016-08-04_17-46-17.log  Vagrantfile.3rtr
+rtr1_2016-08-02_20-48-51.log     rtr2_2016-08-05_10-21-50.log  Vagrantfile.3rtrv2
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$ vagrant status
+Current machine states:
+
+control                   not created (virtualbox)
+rtr1                      not created (virtualbox)
+rtr2                      not created (virtualbox)
+rtr3                      not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$ ls
+ansible/                         rtr1_2016-08-04_17-38-48.log  rtr2_2016-08-05_14-17-15.log
+control_2016-08-02_18-33-00.log  rtr1_2016-08-04_18-02-17.log  rtr3_2016-08-02_20-48-20.log
+control_2016-08-05_14-17-31.log  rtr1_2016-08-04_18-02-46.log  rtr3_2016-08-04_17-48-21.log
+control_2016-08-05_16-19-33.log  rtr1_2016-08-05_10-21-41.log  UsersClaudia.vagrant.dboxescisco-csr1kv
+provision-trustyansible.sh*      rtr1_2016-08-05_14-17-12.log  Vagrantfile
+README.md                        rtr2_2016-08-02_20-47-59.log  Vagrantfile.2rtr
+rtr1_2016-08-02_20-36-46.log     rtr2_2016-08-04_17-46-17.log  Vagrantfile.3rtr
+rtr1_2016-08-02_20-48-51.log     rtr2_2016-08-05_10-21-50.log  Vagrantfile.3rtrv2
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/ios-xe (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ ls
+ansible/    csr1kv/   freebsd-10/  ios-xr/  pluralsight/  quagga-trusty/  veos/
+archlinux/  cumulus/  ios-xe/      mint17/  quagga/       quickstart/     veos-custom/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ cd csr1kv/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ ls
+Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ cat Vagrantfile
+Vagrant.configure("2") do |config|
+
+
+  config.vm.define "rtr1" do |rtr1|
+    config.vm.box = "cisco-csr1kvcfg"
+    rtr1.vm.hostname = "rtr1"
+    # GigabitEthernet2
+    rtr1.vm.network "public_network",use_dhcp_assigned_default_route: true
+    # GigabitEthernet3
+    rtr1.vm.network "private_network", ip: "192.168.99.11"
+    # GigabitEthernet4
+    rtr1.vm.network "private_network",  ip: "192.168.56.11"
+    rtr1.vm.provider "virtualbox" do |vb|
+      vb.name = "rtr1"
+      vb.memory = "2560"
+      vb.cpus = 2
+    end
+  end
+
+  config.vm.define "rtr2" do |rtr2|
+    config.vm.box = "cisco-csr1kvcfg"
+    rtr2.vm.hostname = "rtr2"
+    # GigabitEthernet2
+    rtr2.vm.network "public_network",use_dhcp_assigned_default_route: true
+    # GigabitEthernet3
+    rtr2.vm.network "private_network", ip: "192.168.99.12"
+    # GigabitEthernet4
+    rtr2.vm.network "private_network", ip: "192.168.56.12"
+    rtr2.vm.provider "virtualbox" do |vb|
+      vb.name = "rtr2"
+      vb.memory = "2560"
+      vb.cpus = 2
+    end
+  end
+
+
+end
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant status
+Current machine states:
+
+rtr1                      not created (virtualbox)
+rtr2                      not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+There are errors in the configuration of this machine. Please fix
+the following errors and try again:
+
+vm:
+* A box must be specified.
+
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant box
+Usage: vagrant box <subcommand> [<args>]
+
+Available subcommands:
+     add
+     list
+     outdated
+     remove
+     repackage
+     update
+
+For help on any individual subcommand run `vagrant box <subcommand> -h`
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant box list
+CumulusCommunity/cumulus-vx                           (virtualbox, 3.0.1)
+IOS-XRv                                               (virtualbox, 0)
+cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
+jptoto/Windows2012R2                                  (virtualbox, 1.0.1)
+npalm/mint17-amd64-cinnamon                           (virtualbox, 2016.01.19)
+nrel/CentOS-6.5-x86_64                                (virtualbox, 1.2.0)
+terrywang/archlinux                                   (virtualbox, 1.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160714.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
+vEOS-lab-4.16.6M                                      (virtualbox, 0)
+vagrant-veos                                          (virtualbox, 0)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+There are errors in the configuration of this machine. Please fix
+the following errors and try again:
+
+vm:
+* A box must be specified.
+
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ ls
+Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+==> rtr1: Importing base box 'cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3'...
+==> rtr1: Matching MAC address for NAT networking...
+==> rtr1: Setting the name of the VM: rtr1
+The name of your virtual machine couldn't be set because VirtualBox
+is reporting another VM with that name already exists. Most of the
+time, this is because of an error with VirtualBox not cleaning up
+properly. To fix this, verify that no VMs with that name do exist
+(by opening the VirtualBox GUI). If they don't, then look at the
+folder in the error message from VirtualBox below and remove it
+if there isn't any information you need in there.
+
+VirtualBox error:
+
+VBoxManage.EXE: error: Could not rename the directory 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962' to 'D:\ProgramFiles\Oracle\Vbox_Machines\rtr1' to save the settings file (VERR_ALREADY_EXISTS)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component SessionMachine, interface IMachine, callee IUnknown
+VBoxManage.EXE: error: Context: "SaveSettings()" at line 3052 of file VBoxManageModifyVM.cpp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+==> rtr1: Setting the name of the VM: rtr1
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["modifyvm", "bbdc066d-667e-4c2d-9208-6802575d4b51", "--name", "rtr1"]
+
+Stderr: VBoxManage.EXE: error: Could not rename the directory 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962' to 'D:\ProgramFiles\Oracle\Vbox_Machines\rtr1' to save the settings file (VERR_FILE_NOT_FOUND)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component SessionMachine, interface IMachine, callee IUnknown
+VBoxManage.EXE: error: Context: "SaveSettings()" at line 3052 of file VBoxManageModifyVM.cpp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+==> rtr1: Setting the name of the VM: rtr1
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["modifyvm", "bbdc066d-667e-4c2d-9208-6802575d4b51", "--name", "rtr1"]
+
+Stderr: VBoxManage.EXE: error: Could not rename the directory 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962' to 'D:\ProgramFiles\Oracle\Vbox_Machines\rtr1' to save the settings file (VERR_FILE_NOT_FOUND)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component SessionMachine, interface IMachine, callee IUnknown
+VBoxManage.EXE: error: Context: "SaveSettings()" at line 3052 of file VBoxManageModifyVM.cpp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+==> rtr1: Setting the name of the VM: rtr1
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["modifyvm", "bbdc066d-667e-4c2d-9208-6802575d4b51", "--name", "rtr1"]
+
+Stderr: VBoxManage.EXE: error: Could not rename the directory 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962' to 'D:\ProgramFiles\Oracle\Vbox_Machines\rtr1' to save the settings file (VERR_FILE_NOT_FOUND)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component SessionMachine, interface IMachine, callee IUnknown
+VBoxManage.EXE: error: Context: "SaveSettings()" at line 3052 of file VBoxManageModifyVM.cpp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ ls
+Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+==> rtr1: Setting the name of the VM: csr1kv_rtr1_1480288751168_79468
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["modifyvm", "bbdc066d-667e-4c2d-9208-6802575d4b51", "--name", "csr1kv_rtr1_1480288751168_79468"]
+
+Stderr: VBoxManage.EXE: error: Could not rename the directory 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962' to 'D:\ProgramFiles\Oracle\Vbox_Machines\csr1kv_rtr1_1480288751168_79468' to save the settings file (VERR_FILE_NOT_FOUND)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component SessionMachine, interface IMachine, callee IUnknown
+VBoxManage.EXE: error: Context: "SaveSettings()" at line 3052 of file VBoxManageModifyVM.cpp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+==> rtr1: Setting the name of the VM: rtr1
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["modifyvm", "bbdc066d-667e-4c2d-9208-6802575d4b51", "--name", "rtr1"]
+
+Stderr: VBoxManage.EXE: error: Could not rename the directory 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962' to 'D:\ProgramFiles\Oracle\Vbox_Machines\rtr1' to save the settings file (VERR_FILE_NOT_FOUND)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component SessionMachine, interface IMachine, callee IUnknown
+VBoxManage.EXE: error: Context: "SaveSettings()" at line 3052 of file VBoxManageModifyVM.cpp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant destroy
+==> rtr2: VM not created. Moving on...
+    rtr1: Are you sure you want to destroy the 'rtr1' VM? [y/N] y
+==> rtr1: Destroying VM and associated drives...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["unregistervm", "bbdc066d-667e-4c2d-9208-6802575d4b51", "--delete"]
+
+Stderr: 0%...10%...20%...30%...
+Progress state: VBOX_E_FILE_ERROR
+VBoxManage.EXE: error: Machine delete failed
+VBoxManage.EXE: error: Could not delete the medium storage unit 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962\box-disk1.vmdk'.
+VBoxManage.EXE: error: VD: error VERR_PATH_NOT_FOUND opening image file 'D:\ProgramFiles\Oracle\Vbox_Machines\cisco-csr1kv_1480288483948_88962\box-disk1.vmdk' (VERR_PATH_NOT_FOUND)
+VBoxManage.EXE: error: Details: code VBOX_E_FILE_ERROR (0x80bb0004), component MediumWrap, interface IMedium
+VBoxManage.EXE: error: Context: "enum RTEXITCODE __cdecl handleUnregisterVM(struct HandlerArg *)" at line 163 of file VBoxManageMisc.cpp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant up
+Bringing machine 'rtr1' up with 'virtualbox' provider...
+Bringing machine 'rtr2' up with 'virtualbox' provider...
+==> rtr1: Importing base box 'cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3'...
+==> rtr1: Matching MAC address for NAT networking...
+==> rtr1: Setting the name of the VM: rtr1
+==> rtr1: Clearing any previously set network interfaces...
+==> rtr1: Preparing network interfaces based on configuration...
+    rtr1: Adapter 1: nat
+    rtr1: Adapter 2: bridged
+    rtr1: Adapter 3: hostonly
+    rtr1: Adapter 4: hostonly
+==> rtr1: Forwarding ports...
+    rtr1: 22 (guest) => 2222 (host) (adapter 1)
+==> rtr1: Running 'pre-boot' VM customizations...
+==> rtr1: Booting VM...
+==> rtr1: Waiting for machine to boot. This may take a few minutes...
+    rtr1: SSH address: 127.0.0.1:2222
+    rtr1: SSH username: vagrant
+    rtr1: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant status
+Current machine states:
+
+rtr1                      poweroff (virtualbox)
+rtr2                      not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant destroy
+==> rtr2: VM not created. Moving on...
+    rtr1: Are you sure you want to destroy the 'rtr1' VM? [y/N] y
+==> rtr1: Destroying VM and associated drives...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant status
+Current machine states:
+
+rtr1                      not created (virtualbox)
+rtr2                      not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ vagrant status
+Current machine states:
+
+rtr1                      not created (virtualbox)
+rtr2                      not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/csr1kv
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ ls
+ansible/    csr1kv/   freebsd-10/  ios-xr/  pluralsight/  quagga-trusty/  veos/
+archlinux/  cumulus/  ios-xe/      mint17/  quagga/       quickstart/     veos-custom/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ l
+bash: l: command not found
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ ls
+Ansible-StagingComparison.xlsx  batch/  docker/  perl/  python/  readme.MD.template  vagrant/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ cd docker
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ ls
+trusty-ansible/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ cd trusty-ansible/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ ls
+Dockerfile  tmp/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ cd tmp
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ ls
+Dockerfile  README.md
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   Dockerfile
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ git add .
+warning: CRLF will be replaced by LF in Dockerfile.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ git commit -m "Added VOLUME"
+[master warning: CRLF will be replaced by LF in Dockerfile.
+The file will have its original line endings in your working directory.
+7e41165] Added VOLUME
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in Dockerfile.
+The file will have its original line endings in your working directory.
+ 1 file changed, 3 insertions(+)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ git push -u origin  master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ git push -f origin  master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible/tmp (master)
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker/trusty-ansible
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/docker
+$ cd ..
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ ls
+Ansible-StagingComparison.xlsx  batch/  docker/  perl/  python/  readme.MD.template  vagrant/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts
+$ cd vagrant/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ ls
+ansible/    csr1kv/   freebsd-10/  ios-xr/  pluralsight/  quagga-trusty/  veos/
+archlinux/  cumulus/  ios-xe/      mint17/  quagga/       quickstart/     veos-custom/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ mkdir nxosv
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ ls
+ansible/    csr1kv/   freebsd-10/  ios-xr/  nxosv/        quagga/         quickstart/  veos-custom/
+archlinux/  cumulus/  ios-xe/      mint17/  pluralsight/  quagga-trusty/  veos/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant
+$ cd nxosv
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box  --list
+Usage: vagrant box <subcommand> [<args>]
+
+Available subcommands:
+     add
+     list
+     outdated
+     remove
+     repackage
+     update
+
+For help on any individual subcommand run `vagrant box <subcommand> -h`
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box list
+CumulusCommunity/cumulus-vx                           (virtualbox, 3.0.1)
+IOS-XRv                                               (virtualbox, 0)
+cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
+jptoto/Windows2012R2                                  (virtualbox, 1.0.1)
+npalm/mint17-amd64-cinnamon                           (virtualbox, 2016.01.19)
+nrel/CentOS-6.5-x86_64                                (virtualbox, 1.2.0)
+terrywang/archlinux                                   (virtualbox, 1.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160714.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
+vEOS-lab-4.16.6M                                      (virtualbox, 0)
+vagrant-veos                                          (virtualbox, 0)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box add ?
+D:/vagrant/embedded/lib/ruby/2.2.0/uri/rfc3986_parser.rb:66:in `split': bad URI(is not URI?): file:///D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/? (URI::InvalidURIError)
+        from D:/vagrant/embedded/lib/ruby/2.2.0/uri/rfc3986_parser.rb:72:in `parse'
+        from D:/vagrant/embedded/lib/ruby/2.2.0/uri/common.rb:226:in `parse'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:471:in `metadata_url?'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:81:in `block in call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:79:in `map'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:79:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:34:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builder.rb:116:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `block in run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/util/busy.rb:19:in `busy'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/box/command/add.rb:78:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/box/command/root.rb:61:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/cli.rb:42:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:302:in `cli'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:174:in `<main>'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box add --help
+Usage: vagrant box add [options] <name, url, or path>
+
+Options:
+
+    -c, --clean                      Clean any temporary download files
+    -f, --force                      Overwrite an existing box if it exists
+        --insecure                   Do not validate SSL certificates
+        --cacert FILE                CA certificate for SSL download
+        --capath DIR                 CA certificate directory for SSL download
+        --cert FILE                  A client SSL cert, if needed
+        --location-trusted           Trust 'Location' header from HTTP redirects and use the same credentials for subsequent urls as for the initial one
+        --provider PROVIDER          Provider the box should satisfy
+        --box-version VERSION        Constrain version of the added box
+
+The box descriptor can be the name of a box on HashiCorp's Atlas,
+or a URL, or a local .box file, or a local .json file containing
+the catalog metadata.
+
+The options below only apply if you're adding a box file directly,
+and not using a Vagrant server or a box structured like 'user/box':
+
+        --checksum CHECKSUM          Checksum for the box
+        --checksum-type TYPE         Checksum type (md5, sha1, sha256)
+        --name BOX                   Name of the box
+    -h, --help                       Print this help
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box add --name nxosv7.03(I5)1 nxosv-final.7.0.3.I5.1.box
+bash: syntax error near unexpected token `('
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box add --name nxosv7.03-I5-1 nxosv-final.7.0.3.I5.1.box
+==> box: Box file was not detected as metadata. Adding it directly...
+==> box: Adding box 'nxosv7.03-I5-1' (v0) for provider:
+    box: Unpacking necessary files from: file://D:/Dropbox%20(Indigo%20Wire%20Networks)/scripts/vagrant/nxosv/nxosv-final.7.0.3.I5.1.box
+    box:
+==> box: Successfully added box 'nxosv7.03-I5-1' (v0) for 'virtualbox'!
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box list
+CumulusCommunity/cumulus-vx                           (virtualbox, 3.0.1)
+IOS-XRv                                               (virtualbox, 0)
+cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
+jptoto/Windows2012R2                                  (virtualbox, 1.0.1)
+npalm/mint17-amd64-cinnamon                           (virtualbox, 2016.01.19)
+nrel/CentOS-6.5-x86_64                                (virtualbox, 1.2.0)
+nxosv7.03-I5-1                                        (virtualbox, 0)
+terrywang/archlinux                                   (virtualbox, 1.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160714.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
+vEOS-lab-4.16.6M                                      (virtualbox, 0)
+vagrant-veos                                          (virtualbox, 0)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+A Vagrant environment or target machine is required to run this
+command. Run `vagrant init` to create a new Vagrant environment. Or,
+get an ID of a target machine from `vagrant global-status` to run
+this command on. A final option is to change to a directory with a
+Vagrantfile and to try again.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up nxosv7.03-I5-1
+A Vagrant environment or target machine is required to run this
+command. Run `vagrant init` to create a new Vagrant environment. Or,
+get an ID of a target machine from `vagrant global-status` to run
+this command on. A final option is to change to a directory with a
+Vagrantfile and to try again.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant init nxosv7.03-I5-1
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vi Vagrant
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vi Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ rm Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box add --name n9kv1 nxosv-final.7.0.3.I5.1.box
+==> box: Box file was not detected as metadata. Adding it directly...
+==> box: Adding box 'n9kv1' (v0) for provider:
+    box: Unpacking necessary files from: file://D:/Dropbox%20(Indigo%20Wire%20Networks)/scripts/vagrant/nxosv/nxosv-final.7.0.3.I5.1.box
+    box:
+==> box: Successfully added box 'n9kv1' (v0) for 'virtualbox'!
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box list
+CumulusCommunity/cumulus-vx                           (virtualbox, 3.0.1)
+IOS-XRv                                               (virtualbox, 0)
+cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
+jptoto/Windows2012R2                                  (virtualbox, 1.0.1)
+n9kv1                                                 (virtualbox, 0)
+npalm/mint17-amd64-cinnamon                           (virtualbox, 2016.01.19)
+nrel/CentOS-6.5-x86_64                                (virtualbox, 1.2.0)
+nxosv7.03-I5-1                                        (virtualbox, 0)
+terrywang/archlinux                                   (virtualbox, 1.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160714.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
+vEOS-lab-4.16.6M                                      (virtualbox, 0)
+vagrant-veos                                          (virtualbox, 0)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant init n9kv1
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ cp Vagrantfile Vagrantfile.original
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile  Vagrantfile.original
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ cat Vagrantfile
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.define "n9kv1" do |n9kv1|
+
+    config.vm.box = "n9kv1"
+    n9kv1.vm.hostname = "n9k-01"
+    n9kv1.ssh.insert_key = false
+    n9kv1.vm.boot_timeout = 420
+    n9kv1.vm.synced_folder '.', '/vagrant', disabled: true
+    n9kv1.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+    n9kv1.vm.network "public_network",use_dhcp_assigned_default_route: true, bridge: "en0: Ethernet"
+    n9kv1.vm.network "private_network", ip: "192.168.1.2", auto_config: false, virtualbox__intnet:
+    "nxosv_network1"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network2"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network3"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network4"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network5"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network6"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network7"
+    n9kv1.vm.provider :virtualbox do |vb|
+    NX-OSv 9000 Guide
+      15
+      NX-OSv 9000
+      Instantiating NX-OSv 9000 Using Vagrant
+      vb.customize ['modifyvm',:id,'--nicpromisc2','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc3','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc4','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc5','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc6','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc7','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc8','allow-all']
+    end
+  end
+
+  config.vm.define "n9kv2" do |n9kv2|
+    n9kv2.vm.box = "n9kv"
+    n9kv2.vm.hostname = "n9k-02"
+    n9kv2.ssh.insert_key = false
+    n9kv2.vm.boot_timeout = 420
+    n9kv2.vm.synced_folder '.', '/vagrant', disabled: true
+    n9kv2.vm.network "forwarded_port", guest: 80, host: 8081, auto_correct: true
+    n9kv2.vm.network "public_network",use_dhcp_assigned_default_route: true, bridge: "en0: Ethernet"
+    n9kv2.vm.network "private_network", ip: "192.168.1.3", auto_config: false, virtualbox__intnet:
+    "nxosv_network1"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network2"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network3"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network4"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network5"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network6"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network7"
+    n9kv2.vm.provider :virtualbox do |vb|
+      vb.customize ["modifyvm",:id,"--nicpromisc2","allow-all"]
+      vb.customize ['modifyvm',:id,'--nicpromisc3','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc4','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc5','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc6','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc7','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc8','allow-all']
+    end
+  end
+
+end
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+There is a syntax error in the following Vagrantfile. The syntax error
+message is reproduced below for convenience:
+
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:24: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+    NX-OSv 9000 Guide
+               ^
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:26: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+      NX-OSv 9000
+                 ^
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:27: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+      Instantiating NX-OSv 9000 Using Vagrant
+                               ^
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+There are errors in the configuration of this machine. Please fix
+the following errors and try again:
+
+vm:
+* A box must be specified.
+
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+There are errors in the configuration of this machine. Please fix
+the following errors and try again:
+
+vm:
+* A box must be specified.
+
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Importing base box 'n9kv1'...
+==> n9kv1: Matching MAC address for NAT networking...
+==> n9kv1: Setting the name of the VM: nxosv_n9kv1_1480427456925_13015
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "ed4fadf7-4a55-4760-b613-a8908589ca57", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Clearing any previously set forwarded ports...
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "ed4fadf7-4a55-4760-b613-a8908589ca57", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant status
+Current machine states:
+
+n9kv1                     poweroff (virtualbox)
+n9kv2                     not created (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Clearing any previously set forwarded ports...
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "ed4fadf7-4a55-4760-b613-a8908589ca57", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile  Vagrantfile.2node  Vagrantfile.original
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ rm Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant box list
+CumulusCommunity/cumulus-vx                           (virtualbox, 3.0.1)
+IOS-XRv                                               (virtualbox, 0)
+cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
+jptoto/Windows2012R2                                  (virtualbox, 1.0.1)
+n9kv1                                                 (virtualbox, 0)
+npalm/mint17-amd64-cinnamon                           (virtualbox, 2016.01.19)
+nrel/CentOS-6.5-x86_64                                (virtualbox, 1.2.0)
+nxosv7.03-I5-1                                        (virtualbox, 0)
+terrywang/archlinux                                   (virtualbox, 1.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160714.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
+vEOS-lab-4.16.6M                                      (virtualbox, 0)
+vagrant-veos                                          (virtualbox, 0)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant init n9kv1
+A `Vagrantfile` has been placed in this directory. You are now
+ready to `vagrant up` your first virtual environment! Please read
+the comments in the Vagrantfile as well as documentation on
+`vagrantup.com` for more information on using Vagrant.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile  Vagrantfile.2node  Vagrantfile.original
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ cat Vagrantfile
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure("2") do |config|
+  # The most common configuration options are documented and commented below.
+  # For a complete reference, please see the online documentation at
+  # https://docs.vagrantup.com.
+
+  # Every Vagrant development environment requires a box. You can search for
+  # boxes at https://atlas.hashicorp.com/search.
+  config.vm.box = "n9kv1"
+
+  # Disable automatic box update checking. If you disable this, then
+  # boxes will only be checked for updates when the user runs
+  # `vagrant box outdated`. This is not recommended.
+  # config.vm.box_check_update = false
+
+  # Create a forwarded port mapping which allows access to a specific port
+  # within the machine from a port on the host machine. In the example below,
+  # accessing "localhost:8080" will access port 80 on the guest machine.
+  # config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # Create a private network, which allows host-only access to the machine
+  # using a specific IP.
+  # config.vm.network "private_network", ip: "192.168.33.10"
+
+  # Create a public network, which generally matched to bridged network.
+  # Bridged networks make the machine appear as another physical device on
+  # your network.
+  # config.vm.network "public_network"
+
+  # Share an additional folder to the guest VM. The first argument is
+  # the path on the host to the actual folder. The second argument is
+  # the path on the guest to mount the folder. And the optional third
+  # argument is a set of non-required options.
+  # config.vm.synced_folder "../data", "/vagrant_data"
+
+  # Provider-specific configuration so you can fine-tune various
+  # backing providers for Vagrant. These expose provider-specific options.
+  # Example for VirtualBox:
+  #
+  # config.vm.provider "virtualbox" do |vb|
+  #   # Display the VirtualBox GUI when booting the machine
+  #   vb.gui = true
+  #
+  #   # Customize the amount of memory on the VM:
+  #   vb.memory = "1024"
+  # end
+  #
+  # View the documentation for the provider you are using for more
+  # information on available options.
+
+  # Define a Vagrant Push strategy for pushing to Atlas. Other push strategies
+  # such as FTP and Heroku are also available. See the documentation at
+  # https://docs.vagrantup.com/v2/push/atlas.html for more information.
+  # config.push.define "atlas" do |push|
+  #   push.app = "YOUR_ATLAS_USERNAME/YOUR_APPLICATION_NAME"
+  # end
+
+  # Enable provisioning with a shell script. Additional provisioners such as
+  # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
+  # documentation for more information about their specific syntax and use.
+  # config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get update
+  #   apt-get install -y apache2
+  # SHELL
+end
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'default' up with 'virtualbox' provider...
+==> default: Importing base box 'n9kv1'...
+==> default: Matching MAC address for NAT networking...
+==> default: Setting the name of the VM: nxosv_default_1480428220496_35491
+==> default: Clearing any previously set network interfaces...
+==> default: Preparing network interfaces based on configuration...
+    default: Adapter 1: nat
+==> default: Forwarding ports...
+    default: 22 (guest) => 2222 (host) (adapter 1)
+==> default: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "4df56386-ea3f-40f0-a36d-6ed21578f185", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile  Vagrantfile.2node  Vagrantfile.original
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ cp Vagrantfile.2node Vagrantfile
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ cat Vagrantfile
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+
+  config.vm.define "n9kv1" do |n9kv1|
+
+    n9kv1.vm.box = "n9kv1"
+    n9kv1.vm.hostname = "n9k-01"
+    n9kv1.ssh.insert_key = false
+    n9kv1.vm.boot_timeout = 420
+    n9kv1.vm.synced_folder '.', '/vagrant', disabled: true
+    n9kv1.vm.network "forwarded_port", guest: 80, host: 8080, auto_correct: true
+    n9kv1.vm.network "public_network",use_dhcp_assigned_default_route: true, bridge: "en0: Ethernet"
+    n9kv1.vm.network "private_network", ip: "192.168.1.2", auto_config: false, virtualbox__intnet: "nxosv_network1"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network2"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network3"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network4"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network5"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network6"
+    n9kv1.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network7"
+    n9kv1.vm.provider :virtualbox do |vb|
+      vb.customize ['modifyvm',:id,'--nicpromisc2','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc3','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc4','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc5','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc6','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc7','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc8','allow-all']
+    end
+  end
+
+  config.vm.define "n9kv2" do |n9kv2|
+    n9kv2.vm.box = "n9kv1"
+    n9kv2.vm.hostname = "n9k-02"
+    n9kv2.ssh.insert_key = false
+    n9kv2.vm.boot_timeout = 420
+    n9kv2.vm.synced_folder '.', '/vagrant', disabled: true
+    n9kv2.vm.network "forwarded_port", guest: 80, host: 8081, auto_correct: true
+    n9kv2.vm.network "public_network",use_dhcp_assigned_default_route: true, bridge: "en0: Ethernet"
+    n9kv2.vm.network "private_network", ip: "192.168.1.3", auto_config: false, virtualbox__intnet: "nxosv_network1"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network2"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network3"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network4"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network5"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network6"
+    n9kv2.vm.network "private_network", auto_config: false, virtualbox__intnet: "nxosv_network7"
+    n9kv2.vm.provider :virtualbox do |vb|
+      vb.customize ["modifyvm",:id,"--nicpromisc2","allow-all"]
+      vb.customize ['modifyvm',:id,'--nicpromisc3','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc4','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc5','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc6','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc7','allow-all']
+      vb.customize ['modifyvm',:id,'--nicpromisc8','allow-all']
+    end
+  end
+
+end
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Clearing any previously set forwarded ports...
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "ed4fadf7-4a55-4760-b613-a8908589ca57", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe \.pipe
+VBoxManage.EXE: error: 9k1 (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Clearing any previously set forwarded ports...
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "ed4fadf7-4a55-4760-b613-a8908589ca57", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe \.\pipe\n9k1 (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Clearing any previously set forwarded ports...
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+==> n9kv1: Waiting for machine to boot. This may take a few minutes...
+    n9kv1: SSH address: 127.0.0.1:2222
+    n9kv1: SSH username: vagrant
+    n9kv1: SSH auth method: private key
+
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv2: Importing base box 'n9kv1'...
+==> n9kv2: Matching MAC address for NAT networking...
+==> n9kv2: Setting the name of the VM: nxosv_n9kv2_1480429174066_88448
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+==> n9kv2: Waiting for machine to boot. This may take a few minutes...
+    n9kv2: SSH address: 127.0.0.1:2200
+    n9kv2: SSH username: vagrant
+    n9kv2: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant status
+Current machine states:
+
+n9kv1                     running (virtualbox)
+n9kv2                     running (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt
+==> n9kv2: Attempting graceful shutdown of VM...
+    n9kv2: Guest communication could not be established! This is usually because
+    n9kv2: SSH is not running, the authentication information was changed,
+    n9kv2: or some other networking issue. Vagrant will force halt, if
+    n9kv2: capable.
+==> n9kv2: Forcing shutdown of VM...
+==> n9kv1: Attempting graceful shutdown of VM...
+    n9kv1: Guest communication could not be established! This is usually because
+    n9kv1: SSH is not running, the authentication information was changed,
+    n9kv1: or some other networking issue. Vagrant will force halt, if
+    n9kv1: capable.
+==> n9kv1: Forcing shutdown of VM...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant destroy
+    n9kv2: Are you sure you want to destroy the 'n9kv2' VM? [y/N] y
+==> n9kv2: Destroying VM and associated drives...
+    n9kv1: Are you sure you want to destroy the 'n9kv1' VM? [y/N] y
+==> n9kv1: Destroying VM and associated drives...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Importing base box 'n9kv1'...
+==> n9kv1: Matching MAC address for NAT networking...
+==> n9kv1: Setting the name of the VM: nxosv_n9kv1_1480429835539_63009
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+==> n9kv1: Waiting for machine to boot. This may take a few minutes...
+    n9kv1: SSH address: 127.0.0.1:2222
+    n9kv1: SSH username: vagrant
+    n9kv1: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant ssh
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:43:in `block (2 levels) in <top (required)>': undefined local variable or method `n9kv1' for main:Object (NameError)
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:113:in `block (2 levels) in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `block in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:153:in `machine_config'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:45:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:663:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:177:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:210:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:210:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:209:in `map'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:209:in `with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/ssh/command.rb:41:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/cli.rb:42:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:302:in `cli'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:174:in `<main>'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant status
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:43:in `block (2 levels) in <top (required)>': undefined local variable or method `n9kv1' for main:Object (NameError)
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:113:in `block (2 levels) in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `block in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:153:in `machine_config'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:45:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:663:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:177:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:210:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:210:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:209:in `map'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:209:in `with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/status/command.rb:20:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/cli.rb:42:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:302:in `cli'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:174:in `<main>'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant status n9kv1
+Current machine states:
+
+n9kv1                     running (virtualbox)
+
+The VM is running. To stop this VM, you can run `vagrant halt` to
+shut it down forcefully, or you can run `vagrant suspend` to simply
+suspend the virtual machine. In either case, to restart it again,
+simply run `vagrant up`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant ssh n9kv1
+ssh_exchange_identification: read: Connection reset by peer
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant ssh config
+The machine with the name 'config' was not found configured for
+this Vagrant environment.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant ssh n9kv1
+ssh_exchange_identification: read: Connection reset by peer
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:43:in `block (2 levels) in <top (required)>': undefined local variable or method `n9kv1' for main:Object (NameError)
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:113:in `block (2 levels) in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `block in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:153:in `machine_config'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:45:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:663:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:177:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:201:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:201:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:183:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:183:in `with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/up/command.rb:131:in `install_providers'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/up/command.rb:85:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/cli.rb:42:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:302:in `cli'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:174:in `<main>'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:44:in `block (2 levels) in <top (required)>': undefined local variable or method `n9kv1' for main:Object (NameError)
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:113:in `block (2 levels) in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `block in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:153:in `machine_config'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:45:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:663:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:177:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:201:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:201:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:183:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:183:in `with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/up/command.rb:131:in `install_providers'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/up/command.rb:85:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/cli.rb:42:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:302:in `cli'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:174:in `<main>'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:44:in `block (2 levels) in <top (required)>': undefined local variable or method `n9kv1' for main:Object (NameError)
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:113:in `block (2 levels) in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `block in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:153:in `machine_config'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:45:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:663:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:177:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:210:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:210:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:209:in `map'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:209:in `with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/halt/command.rb:30:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/cli.rb:42:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:302:in `cli'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:174:in `<main>'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt n9kv1
+==> n9kv1: Attempting graceful shutdown of VM...
+    n9kv1: Guest communication could not be established! This is usually because
+    n9kv1: SSH is not running, the authentication information was changed,
+    n9kv1: or some other networking issue. Vagrant will force halt, if
+    n9kv1: capable.
+==> n9kv1: Forcing shutdown of VM...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant destroy n9kv1
+    n9kv1: Are you sure you want to destroy the 'n9kv1' VM? [y/N] y
+==> n9kv1: Destroying VM and associated drives...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/Vagrantfile:44:in `block (2 levels) in <top (required)>': undefined local variable or method `n9kv1' for main:Object (NameError)
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/v2/loader.rb:37:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:113:in `block (2 levels) in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:107:in `block in load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/config/loader.rb:104:in `load'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:153:in `machine_config'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/vagrantfile.rb:45:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:663:in `machine'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:177:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:201:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:201:in `block in with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:183:in `each'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/plugin/v2/command.rb:183:in `with_target_vms'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/up/command.rb:131:in `install_providers'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/commands/up/command.rb:85:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/cli.rb:42:in `execute'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:302:in `cli'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/bin/vagrant:174:in `<main>'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Importing base box 'n9kv1'...
+==> n9kv1: Matching MAC address for NAT networking...
+==> n9kv1: Setting the name of the VM: nxosv_n9kv1_1480431027515_90955
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+==> n9kv1: Waiting for machine to boot. This may take a few minutes...
+    n9kv1: SSH address: 127.0.0.1:2222
+    n9kv1: SSH username: vagrant
+    n9kv1: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv2: Box 'n9kv2' could not be found. Attempting to find and install...
+    n9kv2: Box Provider: virtualbox
+    n9kv2: Box Version: >= 0
+D:/vagrant/embedded/lib/ruby/2.2.0/uri/rfc3986_parser.rb:66:in `split': bad URI(is not URI?): file:///D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/n9kv2 (URI::InvalidURIError)
+        from D:/vagrant/embedded/lib/ruby/2.2.0/uri/rfc3986_parser.rb:72:in `parse'
+        from D:/vagrant/embedded/lib/ruby/2.2.0/uri/common.rb:226:in `parse'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:471:in `metadata_url?'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:81:in `block in call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:79:in `map'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/box_add.rb:79:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:34:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builder.rb:116:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `block in run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/util/busy.rb:19:in `busy'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/handle_box.rb:82:in `handle_box'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/handle_box.rb:42:in `block in call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/handle_box.rb:36:in `synchronize'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/handle_box.rb:36:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:34:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:95:in `block in finalize_action'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:34:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:34:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builder.rb:116:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `block in run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/util/busy.rb:19:in `busy'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builtin/call.rb:53:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:34:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/plugins/providers/virtualbox/action/check_virtualbox.rb:17:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/warden.rb:34:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/builder.rb:116:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `block in run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/util/busy.rb:19:in `busy'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/action/runner.rb:66:in `run'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/machine.rb:225:in `action_raw'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/machine.rb:200:in `block in action'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/environment.rb:561:in `lock'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/machine.rb:186:in `call'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/machine.rb:186:in `action'
+        from D:/vagrant/embedded/gems/gems/vagrant-1.8.5/lib/vagrant/batch_action.rb:82:in `block (2 levels) in run'
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+==> n9kv2: Importing base box 'n9kv1'...
+==> n9kv2: Matching MAC address for NAT networking...
+==> n9kv2: Setting the name of the VM: nxosv_n9kv2_1480431136702_91372
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "9bdca5fd-d688-4f43-b5b2-2dbbe3d42923", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+==> n9kv2: Clearing any previously set forwarded ports...
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "9bdca5fd-d688-4f43-b5b2-2dbbe3d42923", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+==> n9kv2: Clearing any previously set forwarded ports...
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "9bdca5fd-d688-4f43-b5b2-2dbbe3d42923", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+==> n9kv2: Clearing any previously set forwarded ports...
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "9bdca5fd-d688-4f43-b5b2-2dbbe3d42923", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+==> n9kv2: Clearing any previously set forwarded ports...
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "9bdca5fd-d688-4f43-b5b2-2dbbe3d42923", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: The specified I/O port range intruded on an existing range. There is a I/O port conflict between two device, or a device tried to register the same range twice. (VERR_IOM_IOPORT_RANGE_CONFLICT)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+==> n9kv2: Clearing any previously set forwarded ports...
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "9bdca5fd-d688-4f43-b5b2-2dbbe3d42923", "--type", "headless"]
+
+Stderr: VBoxManage.EXE: error: The specified I/O port range intruded on an existing range. There is a I/O port conflict between two device, or a device tried to register the same range twice. (VERR_IOM_IOPORT_RANGE_CONFLICT)
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Machine already provisioned. Run `vagrant provision` or use the `--provision`
+==> n9kv1: flag to force provisioning. Provisioners marked to run always will still run.
+==> n9kv2: Clearing any previously set forwarded ports...
+==> n9kv2: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9kv2: Clearing any previously set network interfaces...
+==> n9kv2: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv2: which network to bridge to.
+==> n9kv2: Preparing network interfaces based on configuration...
+    n9kv2: Adapter 1: nat
+    n9kv2: Adapter 2: bridged
+    n9kv2: Adapter 3: intnet
+    n9kv2: Adapter 4: intnet
+    n9kv2: Adapter 5: intnet
+    n9kv2: Adapter 6: intnet
+    n9kv2: Adapter 7: intnet
+    n9kv2: Adapter 8: intnet
+    n9kv2: Adapter 9: intnet
+==> n9kv2: Forwarding ports...
+    n9kv2: 80 (guest) => 8081 (host) (adapter 1)
+    n9kv2: 22 (guest) => 2200 (host) (adapter 1)
+==> n9kv2: Running 'pre-boot' VM customizations...
+==> n9kv2: Booting VM...
+==> n9kv2: Waiting for machine to boot. This may take a few minutes...
+    n9kv2: SSH address: 127.0.0.1:2200
+    n9kv2: SSH username: vagrant
+    n9kv2: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt
+==> n9kv1: Attempting graceful shutdown of VM...
+    n9kv1: Guest communication could not be established! This is usually because
+    n9kv1: SSH is not running, the authentication information was changed,
+    n9kv1: or some other networking issue. Vagrant will force halt, if
+    n9kv1: capable.
+==> n9kv1: Forcing shutdown of VM...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant destroy
+    n9kv2: Are you sure you want to destroy the 'n9kv2' VM? [y/N] y
+==> n9kv2: Destroying VM and associated drives...
+    n9kv1: Are you sure you want to destroy the 'n9kv1' VM? [y/N] y
+==> n9kv1: Destroying VM and associated drives...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9k01' up with 'virtualbox' provider...
+Bringing machine 'n9k02' up with 'virtualbox' provider...
+==> n9k01: Importing base box 'n9kv1'...
+==> n9k01: Matching MAC address for NAT networking...
+==> n9k01: Setting the name of the VM: n9k-01
+==> n9k01: Clearing any previously set network interfaces...
+==> n9k01: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9k01: which network to bridge to.
+==> n9k01: Preparing network interfaces based on configuration...
+    n9k01: Adapter 1: nat
+    n9k01: Adapter 2: bridged
+    n9k01: Adapter 3: intnet
+    n9k01: Adapter 4: intnet
+    n9k01: Adapter 5: intnet
+    n9k01: Adapter 6: intnet
+    n9k01: Adapter 7: intnet
+    n9k01: Adapter 8: intnet
+    n9k01: Adapter 9: intnet
+==> n9k01: Forwarding ports...
+    n9k01: 80 (guest) => 8080 (host) (adapter 1)
+    n9k01: 22 (guest) => 2222 (host) (adapter 1)
+==> n9k01: Running 'pre-boot' VM customizations...
+==> n9k01: Booting VM...
+==> n9k01: Waiting for machine to boot. This may take a few minutes...
+    n9k01: SSH address: 127.0.0.1:2222
+    n9k01: SSH username: vagrant
+    n9k01: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9k01' up with 'virtualbox' provider...
+Bringing machine 'n9k02' up with 'virtualbox' provider...
+==> n9k02: Importing base box 'n9kv1'...
+==> n9k02: Matching MAC address for NAT networking...
+==> n9k02: Setting the name of the VM: n9k-02
+==> n9k02: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9k02: Clearing any previously set network interfaces...
+==> n9k02: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9k02: which network to bridge to.
+==> n9k02: Preparing network interfaces based on configuration...
+    n9k02: Adapter 1: nat
+    n9k02: Adapter 2: bridged
+    n9k02: Adapter 3: intnet
+    n9k02: Adapter 4: intnet
+    n9k02: Adapter 5: intnet
+    n9k02: Adapter 6: intnet
+    n9k02: Adapter 7: intnet
+    n9k02: Adapter 8: intnet
+    n9k02: Adapter 9: intnet
+==> n9k02: Forwarding ports...
+    n9k02: 80 (guest) => 8081 (host) (adapter 1)
+    n9k02: 22 (guest) => 2200 (host) (adapter 1)
+==> n9k02: Running 'pre-boot' VM customizations...
+==> n9k02: Booting VM...
+==> n9k02: Waiting for machine to boot. This may take a few minutes...
+    n9k02: SSH address: 127.0.0.1:2200
+    n9k02: SSH username: vagrant
+    n9k02: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant status
+Current machine states:
+
+n9k01                     running (virtualbox)
+n9k02                     running (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt
+==> n9k02: Attempting graceful shutdown of VM...
+    n9k02: Guest communication could not be established! This is usually because
+    n9k02: SSH is not running, the authentication information was changed,
+    n9k02: or some other networking issue. Vagrant will force halt, if
+    n9k02: capable.
+==> n9k02: Forcing shutdown of VM...
+==> n9k01: Attempting graceful shutdown of VM...
+    n9k01: Guest communication could not be established! This is usually because
+    n9k01: SSH is not running, the authentication information was changed,
+    n9k01: or some other networking issue. Vagrant will force halt, if
+    n9k01: capable.
+==> n9k01: Forcing shutdown of VM...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant destroy
+    n9k02: Are you sure you want to destroy the 'n9k02' VM? [y/N] y
+==> n9k02: Destroying VM and associated drives...
+    n9k01: Are you sure you want to destroy the 'n9k01' VM? [y/N] y
+==> n9k01: Destroying VM and associated drives...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9k01' up with 'virtualbox' provider...
+Bringing machine 'n9k02' up with 'virtualbox' provider...
+==> n9k01: Importing base box 'n9kv1'...
+==> n9k01: Matching MAC address for NAT networking...
+==> n9k01: Setting the name of the VM: n9k-01
+==> n9k01: Clearing any previously set network interfaces...
+==> n9k01: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9k01: which network to bridge to.
+==> n9k01: Preparing network interfaces based on configuration...
+    n9k01: Adapter 1: nat
+    n9k01: Adapter 2: bridged
+    n9k01: Adapter 3: intnet
+    n9k01: Adapter 4: intnet
+    n9k01: Adapter 5: intnet
+    n9k01: Adapter 6: intnet
+    n9k01: Adapter 7: intnet
+    n9k01: Adapter 8: intnet
+    n9k01: Adapter 9: intnet
+==> n9k01: Forwarding ports...
+    n9k01: 80 (guest) => 8080 (host) (adapter 1)
+    n9k01: 22 (guest) => 2222 (host) (adapter 1)
+==> n9k01: Running 'pre-boot' VM customizations...
+==> n9k01: Booting VM...
+==> n9k01: Waiting for machine to boot. This may take a few minutes...
+    n9k01: SSH address: 127.0.0.1:2222
+    n9k01: SSH username: vagrant
+    n9k01: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9k01' up with 'virtualbox' provider...
+Bringing machine 'n9k02' up with 'virtualbox' provider...
+==> n9k02: Importing base box 'n9kv1'...
+==> n9k02: Matching MAC address for NAT networking...
+==> n9k02: Setting the name of the VM: n9k-02
+==> n9k02: Fixed port collision for 22 => 2222. Now on port 2200.
+==> n9k02: Clearing any previously set network interfaces...
+==> n9k02: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9k02: which network to bridge to.
+==> n9k02: Preparing network interfaces based on configuration...
+    n9k02: Adapter 1: nat
+    n9k02: Adapter 2: bridged
+    n9k02: Adapter 3: intnet
+    n9k02: Adapter 4: intnet
+    n9k02: Adapter 5: intnet
+    n9k02: Adapter 6: intnet
+    n9k02: Adapter 7: intnet
+    n9k02: Adapter 8: intnet
+    n9k02: Adapter 9: intnet
+==> n9k02: Forwarding ports...
+    n9k02: 80 (guest) => 8081 (host) (adapter 1)
+    n9k02: 22 (guest) => 2200 (host) (adapter 1)
+==> n9k02: Running 'pre-boot' VM customizations...
+==> n9k02: Booting VM...
+==> n9k02: Waiting for machine to boot. This may take a few minutes...
+    n9k02: SSH address: 127.0.0.1:2200
+    n9k02: SSH username: vagrant
+    n9k02: SSH auth method: private key
+    n9k02: Warning: Remote connection disconnect. Retrying...
+The guest machine entered an invalid state while waiting for it
+to boot. Valid states are 'starting, running'. The machine is in the
+'paused' state. Please verify everything is configured
+properly and try again.
+
+If the provider you're using has a GUI that comes with it,
+it is often helpful to open that and watch the machine, since the
+GUI often has more helpful error messages than Vagrant can retrieve.
+For example, if you're using VirtualBox, run `vagrant up` while the
+VirtualBox GUI is open.
+
+The primary issue for this error is that the provider you're using
+is not properly configured. This is very rarely a Vagrant issue.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt
+==> n9k01: Attempting graceful shutdown of VM...
+    n9k01: Guest communication could not be established! This is usually because
+    n9k01: SSH is not running, the authentication information was changed,
+    n9k01: or some other networking issue. Vagrant will force halt, if
+    n9k01: capable.
+==> n9k01: Forcing shutdown of VM...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant status
+Current machine states:
+
+n9k01                     poweroff (virtualbox)
+n9k02                     poweroff (virtualbox)
+
+This environment represents multiple VMs. The VMs are all listed
+above with their current state. For more information about a specific
+VM, run `vagrant status NAME`.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9k01' up with 'virtualbox' provider...
+Bringing machine 'n9k02' up with 'virtualbox' provider...
+==> n9k01: Clearing any previously set forwarded ports...
+==> n9k01: Clearing any previously set network interfaces...
+==> n9k01: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9k01: which network to bridge to.
+==> n9k01: Preparing network interfaces based on configuration...
+    n9k01: Adapter 1: nat
+    n9k01: Adapter 2: bridged
+    n9k01: Adapter 3: intnet
+    n9k01: Adapter 4: intnet
+    n9k01: Adapter 5: intnet
+    n9k01: Adapter 6: intnet
+    n9k01: Adapter 7: intnet
+    n9k01: Adapter 8: intnet
+    n9k01: Adapter 9: intnet
+==> n9k01: Forwarding ports...
+    n9k01: 80 (guest) => 8080 (host) (adapter 1)
+    n9k01: 22 (guest) => 2222 (host) (adapter 1)
+==> n9k01: Running 'pre-boot' VM customizations...
+==> n9k01: Booting VM...
+==> n9k01: Waiting for machine to boot. This may take a few minutes...
+    n9k01: SSH address: 127.0.0.1:2222
+    n9k01: SSH username: vagrant
+    n9k01: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt
+==> n9k01: Attempting graceful shutdown of VM...
+
+    n9k01: Guest communication could not be established! This is usually because
+    n9k01: SSH is not running, the authentication information was changed,
+    n9k01: or some other networking issue. Vagrant will force halt, if
+    n9k01: capable.
+==> n9k01: Forcing shutdown of VM...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant destroy
+    n9k02: Are you sure you want to destroy the 'n9k02' VM? [y/N] y
+==> n9k02: Destroying VM and associated drives...
+    n9k01: Are you sure you want to destroy the 'n9k01' VM? [y/N] y
+==> n9k01: Destroying VM and associated drives...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9k01' up with 'virtualbox' provider...
+Bringing machine 'n9k02' up with 'virtualbox' provider...
+==> n9k01: Importing base box 'n9kv1'...
+==> n9k01: Matching MAC address for NAT networking...
+==> n9k01: Setting the name of the VM: n9k-01
+==> n9k01: Clearing any previously set network interfaces...
+==> n9k01: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9k01: which network to bridge to.
+==> n9k01: Preparing network interfaces based on configuration...
+    n9k01: Adapter 1: nat
+    n9k01: Adapter 2: bridged
+    n9k01: Adapter 3: intnet
+    n9k01: Adapter 4: intnet
+    n9k01: Adapter 5: intnet
+    n9k01: Adapter 6: intnet
+    n9k01: Adapter 7: intnet
+    n9k01: Adapter 8: intnet
+    n9k01: Adapter 9: intnet
+==> n9k01: Forwarding ports...
+    n9k01: 80 (guest) => 8080 (host) (adapter 1)
+    n9k01: 22 (guest) => 2222 (host) (adapter 1)
+==> n9k01: Running 'pre-boot' VM customizations...
+==> n9k01: Booting VM...
+==> n9k01: Waiting for machine to boot. This may take a few minutes...
+    n9k01: SSH address: 127.0.0.1:2222
+    n9k01: SSH username: vagrant
+    n9k01: SSH auth method: private key
+Timed out while waiting for the machine to boot. This means that
+Vagrant was unable to communicate with the guest machine within
+the configured ("config.vm.boot_timeout" value) time period.
+
+If you look above, you should be able to see the error(s) that
+Vagrant had when attempting to connect to the machine. These errors
+are usually good hints as to what may be wrong.
+
+If you're using a custom box, make sure that networking is properly
+working and you're able to connect to the machine. It is a common
+problem that networking isn't setup properly in these boxes.
+Verify that authentication configurations are also setup properly,
+as well.
+
+If the box appears to be booting properly, you may want to increase
+the timeout ("config.vm.boot_timeout") value.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant halt
+==> n9k02: VM not created. Moving on...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant destroy
+==> n9k02: VM not created. Moving on...
+    n9k01: Are you sure you want to destroy the 'n9k01' VM? [y/N] y
+==> n9k01: Destroying VM and associated drives...
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ history
+  255  vagrant status
+  256  vagrant reload
+  257  exit
+  258  ls
+  259  cd My\ Documents/
+  260  ls
+  261  exit
+  262  ls
+  263  cd D:
+  264  ls
+  265  cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+  266  ls
+  267  cd scripts/
+  268  ls
+  269  cd vagrant/
+  270  ls
+  271  cd ios-xe
+  272  ls
+  273  git status
+  274  git add Vagrantfile
+  275  git status
+  276  git commit -m "Refining Vagrantfile with bridged interface so it does not prompt"
+  277  git push
+  278  vi Vagrantfile
+  279  ls
+  280  exit
+  281  ls
+  282  cd D:
+  283  ls
+  284  cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+  285  ls
+  286  cd scripts/
+  287  ls
+  288  cd vagrant/
+  289  ls
+  290  cd ios-xe
+  291  ls
+  292  git status
+  293  vi Vagrantfile
+  294  git add Vagrantfile
+  295  git commit -m "Updates to 3-rtr Vagrantfile"
+  296  git push
+  297  cd ..
+  298  ls
+  299  cd ..
+  300  ls
+  301  cd python/
+  302  ls
+  303  cd 2016
+  304  ls
+  305  cd PyNetA/
+  306  ls
+  307  git status
+  308  cd week2
+  309  ls
+  310  git status
+  311  cd ..
+  312  ls
+  313  mkdir week5
+  314  ls
+  315  git status
+  316  ls
+  317  vagrant box list
+  318  pwd
+  319  cd ..
+  320  ls
+  321  cd ..
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd vagrant/
+  326  ls
+  327  mkdir veos
+  328  ls
+  329  cd veos
+  330  ls
+  331  pwd
+  332  ls ~/Downloads/*.box
+  333  vagrant box add --name vEOS-lab-4.16.6M ~/Downloads/vEOS-lab-4.16.6M-virtualbox.box
+  334  vagrant box list
+  335  vagrant init vEOS-lab-4.16.6M
+  336  vi Vagrantfile
+  337  vagrant up
+  338  vagrant plugin install vagrant-vbguest
+  339  vagrant reload
+  340  vagrant status
+  341  vagrant status
+  342  vagrant up
+  343  vagrant status
+  344  vagrant halt
+  345  vagrant destroy
+  346  vagrant up
+  347  vagrant
+  348  vagrant status
+  349  vagrant destroy
+  350  vi Vagrantfile
+  351  vagrant up
+  352  vagrant up
+  353  vagrant status
+  354  vagrant up
+  355  vagrant status
+  356  vagrant halt
+  357  vagrant destroy
+  358  mv Vagrantfile Vagrantfile.cs01
+  359  ls
+  360  history
+  361  vagrant init vEOS-lab-4.16.6M
+  362  ls
+  363  vagrant up
+  364  vagrant ssh-config
+  365  vagrant status
+  366  vagrant ssh
+  367  vagrant halt
+  368  ls
+  369  mv Vagrantfile.txt Vagrantfile
+  370  ls
+  371  vagrant up
+  372  cd ~/keys
+  373  cd ~/
+  374  ls
+  375  ls -al
+  376  cd .ssh/
+  377  ls
+  378  pwd
+  379  cd ..
+  380  ls
+  381  ls -al
+  382  cd .vagrant.d/
+  383  ls
+  384  ls -al
+  385  ls
+  386  cd ~/
+  387  ls
+  388  cd d:
+  389  ls
+  390  cd ~/.ssh/
+  391  ls
+  392  cd id_rsa.pub
+  393  ls
+  394  ls -al
+  395  cd d:
+  396  cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+  397  cd scripts/
+  398  ls
+  399  cd vagrant/
+  400  ls
+  401  cd Vveo
+  402  ls
+  403  cd veos/
+  404  ls
+  405  vagrant up
+  406  vagrant up
+  407  pwd
+  408  cd ~/.vagrant.d/
+  409  ls
+  410  pwd
+  411  cd d:
+  412  cd Dropbox\ \(Indigo\ Wire\ Networks\)/scripts/vagrant/veos/
+  413  ls
+  414  vagrant satus
+  415  vagrant status
+  416  vagrant up
+  417  vagrant up
+  418  vagrant status
+  419  vagrant destroy
+  420  vagrant up
+  421  vagrant
+  422  vagrant status
+  423  vagrant up
+  424  vagrant status
+  425  vagrant ssh
+  426  vagrant ssh -c FastCli
+  427  vagrant ssh -c FastCli -p 15 -c "configure"
+  428  vagrant ssh
+  429  vagrant halt
+  430  vagrant destroy
+  431  vagrant up
+  432  vagrant up
+  433  vagrant up
+  434  vagrant up
+  435  vagrant status
+  436  vagrant ssh
+  437  vagrant halt
+  438  vagrant destroy
+  439  ls
+  440  rm insecure_private_key
+  441  ls
+  442  cp Vagrantfile Vagrantfile.cs01.2
+  443  cp Vagrantfile.default Vagrantfile
+  444  ls
+  445  vagrant up
+  446  vagrant halt
+  447  vagrant destroy
+  448  ls
+  449  vagrant up
+  450  vagrant status
+  451  vagrant ssh-config
+  452  vagrant ssh
+  453  vagrant destroy
+  454  ls
+  455  cp Vagrantfile.default Vagrantfile
+  456  ls
+  457  vagrant up
+  458  vagrant up
+  459  vagrant destroy
+  460  vagrant destroy
+  461  vagrant up
+  462  vagrant status
+  463  vagrant ssh
+  464  vagrant halt
+  465  vagrant distroy
+  466  ssh-keygen
+  467  pwd
+  468  ssh-keygen
+  469  ls
+  470  pwd
+  471  ls -al
+  472  /
+  473  vagrant status
+  474  vagrant up
+  475  vagrant ssh-config
+  476  vagrant ssh
+  477  vagrant ssh
+  478  vagrant halt
+  479  ls
+  480  vagrant up
+  481  vagrant status
+  482  vagrant ssh veos-csw01
+  483  vagrant reload
+  484  vagrant reload
+  485  vagrant status
+  486  vagrant halt
+  487  vagrant up
+  488  vagrant status
+  489  vagrant ssh-config
+  490  ls
+  491  rm insecure_private_key
+  492  ls
+  493  vagrant reload
+  494  vagrant status
+  495  vagrant reload
+  496  vagrant status
+  497  vagrant up
+  498  vagrant ssh-config
+  499  vagrant ssh
+  500  exit
+  501  pwd
+  502  cd c:
+  503  ls
+  504  pwd
+  505  cd d:
+  506  ls
+  507  cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+  508  ls
+  509  cd scripts/
+  510  ls
+  511  cd docker
+  512  ls
+  513  cd trusty-ansible/
+  514  ls
+  515  git status
+  516  ls -al
+  517  rm trusty-ansible-image/
+  518  rm -r trusty-ansible-image/
+  519  ls
+  520  docker images
+  521  ls
+  522  ls -al
+  523  cat Dockerfile
+  524  cd ..
+  525  ls
+  526  git status
+  527  cd trusty-ansible/
+  528  ls
+  529  mkdir tmp
+  530  cd tmp
+  531  ls
+  532  cd ..
+  533  cd ..
+  534  cd ..
+  535  cd python/
+  536  ls
+  537  cd 2016
+  538  ls
+  539  cd PyNetACert/
+  540  ls
+  541  cd week5
+  542  ls
+  543  ls
+  544  git status
+  545  git status
+  546  git add access_switch*
+  547  git status
+  548  git add ./CFG*
+  549  git status
+  550  cd CFG
+  551  ls
+  552  git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+  553  git add access_switch*
+  554  cd ..
+  555  git add access_switch*
+  556  git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+  557  git push -u origin master
+  558  git add access_switch*
+  559  git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+  560  git push -u origin master
+  561  git status
+  562  git add README.md
+  563  git commit -m "Updated README"
+  564  git push -u origin master
+  565  cd ..
+  566  ls
+  567  cd week6
+  568  ls
+  569  git status
+  570  git add week6*
+  571  git add README.md
+  572  git add cisco_acl.txt
+  573  git commit -m "Week6 Exercises - all working"
+  574  git push -u origin master
+  575  ls
+  576  cd ..
+  577  cd week7
+  578  ls
+  579  git status
+  580  ls
+  581  git add argparse_action.py
+  582  git add arista*
+  583  git add README.md
+  584  git commit -m "Week7 exercises from non-Cert class"
+  585  git push -u origin master
+  586  cd ..
+  587  cd ..
+  588  cd ..
+  589  cd ..
+  590  cd vagrant/
+  591  ls
+  592  cd ios-xr
+  593  ls
+  594  cd download/
+  595  ls
+  596  cd ..
+  597  ls
+  598  vi Vagrantfile
+  599  cd ..
+  600  ls
+  601  cd csr1kv/
+  602  ls
+  603  vi Vagrantfile
+  604  cd ..
+  605  ls
+  606  cd ios-xe/
+  607  ls
+  608  vi Vagrantfile
+  609  vagrant status
+  610  ls
+  611  cd ..
+  612  ls
+  613  cd csr1kv/
+  614  ls
+  615  cat Vagrantfile
+  616  vagrant status
+  617  vagrant up
+  618  vagrant box
+  619  vagrant box list
+  620  vagrant up
+  621  ls
+  622  vi Vagrantfile
+  623  vagrant up
+  624  vagrant up
+  625  vagrant up
+  626  vagrant up
+  627  ls
+  628  vi Vagrantfile
+  629  vagrant up
+  630  vi Vagrantfile
+  631  vagrant up
+  632  vi Vagrantfile
+  633  vagrant destroy
+  634  vagrant up
+  635  vagrant status
+  636  vagrant destroy
+  637  vagrant status
+  638  vagrant status
+  639  cd ..
+  640  ls
+  641  cd ..
+  642  l
+  643  ls
+  644  cd docker
+  645  ls
+  646  cd trusty-ansible/
+  647  ls
+  648  cd tmp
+  649  ls
+  650  git status
+  651  git add .
+  652  git commit -m "Added VOLUME"
+  653  git push -u origin  master
+  654  git push -f origin  master
+  655  cd ..
+  656  cd ..
+  657  cd ..
+  658  ls
+  659  cd vagrant/
+  660  ls
+  661  mkdir nxosv
+  662  ls
+  663  cd nxosv
+  664  vagrant box  --list
+  665  vagrant box list
+  666  ls
+  667  ls
+  668  vagrant box add ?
+  669  vagrant box add --help
+  670  ls
+  671  vagrant box add --name nxosv7.03(I5)1 nxosv-final.7.0.3.I5.1.box
+  672  vagrant box add --name nxosv7.03-I5-1 nxosv-final.7.0.3.I5.1.box
+  673  vagrant box list
+  674  vagrant up
+  675  ls
+  676  vagrant up nxosv7.03-I5-1
+  677  vagrant init nxosv7.03-I5-1
+  678  vi Vagrant
+  679  ls
+  680  vi Vagrantfile
+  681  ls
+  682  rm Vagrantfile
+  683  ls
+  684  vagrant box add --name n9kv1 nxosv-final.7.0.3.I5.1.box
+  685  vagrant box list
+  686  vagrant init n9kv1
+  687  cp Vagrantfile Vagrantfile.original
+  688  ls
+  689  cat Vagrantfile
+  690  vagrant up
+  691  vagrant up
+  692  vagrant up
+  693  vagrant up
+  694  vagrant up
+  695  vagrant status
+  696  vagrant up
+  697  ls
+  698  rm Vagrantfile
+  699  vagrant box list
+  700  vagrant init n9kv1
+  701  ls
+  702  cat Vagrantfile
+  703  vagrant up
+  704  ls
+  705  cp Vagrantfile.2node Vagrantfile
+  706  cat Vagrantfile
+  707  vagrant up
+  708  vagrant up
+  709  vagrant up
+  710  vagrant up
+  711  vagrant status
+  712  vagrant up
+  713  vagrant halt
+  714  vagrant destroy
+  715  vagrant up
+  716  vagrant ssh
+  717  vagrant status
+  718  vagrant status n9kv1
+  719  vagrant ssh n9kv1
+  720  vagrant ssh config
+  721  vagrant ssh n9kv1
+  722  vagrant up
+  723  vagrant up
+  724  vagrant halt
+  725  vagrant halt n9kv1
+  726  vagrant destroy n9kv1
+  727  vagrant up
+  728  vagrant up
+  729  vagrant up
+  730  vagrant up
+  731  vagrant up
+  732  vagrant up
+  733  vagrant up
+  734  vagrant up
+  735  vagrant up
+  736  vagrant up
+  737  vagrant halt
+  738  vagrant destroy
+  739  vagrant up
+  740  vagrant up
+  741  vagrant status
+  742  vagrant halt
+  743  vagrant destroy
+  744  vagrant up
+  745  vagrant up
+  746  vagrant halt
+  747  vagrant status
+  748  vagrant up
+  749  vagrant halt
+  750  vagrant destroy
+  751  vagrant up
+  752  vagrant halt
+  753  vagrant destroy
+  754  history
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile  Vagrantfile.2node  Vagrantfile.mac  Vagrantfile.original  Vagrantfile.win10
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ pwd
+/d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ ls -al
+total 759904
+drwxr-xr-x 1 claud 197609         0 Nov 29 08:05 ./
+drwxr-xr-x 1 claud 197609         0 Nov 28 17:05 ../
+drwxr-xr-x 1 claud 197609         0 Nov 29 05:49 .vagrant/
+-rw-r--r-- 1 claud 197609 778096640 Nov 28 12:22 nxosv-final.7.0.3.I5.1.box
+-rw-r--r-- 1 claud 197609       881 Nov 29 08:05 README.md
+-rw-r--r-- 1 claud 197609      4221 Nov 29 08:01 Vagrantfile
+-rw-r--r-- 1 claud 197609      3356 Nov 29 06:02 Vagrantfile.2node
+-rw-r--r-- 1 claud 197609      4221 Nov 29 07:55 Vagrantfile.mac
+-rw-r--r-- 1 claud 197609      3080 Nov 29 05:39 Vagrantfile.original
+-rw-r--r-- 1 claud 197609      4213 Nov 29 07:47 Vagrantfile.win10
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ git init
+Initialized empty Git repository in D:/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv/.git/
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .vagrant/
+        README.md
+        Vagrantfile
+        Vagrantfile.2node
+        Vagrantfile.mac
+        Vagrantfile.original
+        Vagrantfile.win10
+        nxosv-final.7.0.3.I5.1.box
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ vi .gitignore
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        .vagrant/
+        README.md
+        Vagrantfile
+        Vagrantfile.2node
+        Vagrantfile.mac
+        Vagrantfile.original
+        Vagrantfile.win10
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ vi .gitignore
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        README.md
+        Vagrantfile
+        Vagrantfile.2node
+        Vagrantfile.mac
+        Vagrantfile.original
+        Vagrantfile.win10
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ mv Vagrantfile.2nodewin10
+mv: missing destination file operand after 'Vagrantfile.2nodewin10'
+Try 'mv --help' for more information.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ mv Vagrantfile.2node  Vagrantfile.2nodewin10
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile             Vagrantfile.mac       Vagrantfile.win10
+README.md                   Vagrantfile.2nodewin10  Vagrantfile.original
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ ls -al
+total 759909
+drwxr-xr-x 1 claud 197609         0 Nov 29 08:09 ./
+drwxr-xr-x 1 claud 197609         0 Nov 28 17:05 ../
+drwxr-xr-x 1 claud 197609         0 Nov 29 08:08 .git/
+-rw-r--r-- 1 claud 197609        15 Nov 29 08:08 .gitignore
+drwxr-xr-x 1 claud 197609         0 Nov 29 05:49 .vagrant/
+-rw-r--r-- 1 claud 197609 778096640 Nov 28 12:22 nxosv-final.7.0.3.I5.1.box
+-rw-r--r-- 1 claud 197609      1464 Nov 29 08:06 README.md
+-rw-r--r-- 1 claud 197609      4221 Nov 29 08:01 Vagrantfile
+-rw-r--r-- 1 claud 197609      3356 Nov 29 06:02 Vagrantfile.2nodewin10
+-rw-r--r-- 1 claud 197609      4221 Nov 29 07:55 Vagrantfile.mac
+-rw-r--r-- 1 claud 197609      3080 Nov 29 05:39 Vagrantfile.original
+-rw-r--r-- 1 claud 197609      4213 Nov 29 07:47 Vagrantfile.win10
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        README.md
+        Vagrantfile
+        Vagrantfile.2nodewin10
+        Vagrantfile.mac
+        Vagrantfile.original
+        Vagrantfile.win10
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .gitignore
+        README.md
+        Vagrantfile
+        Vagrantfile.2nodewin10
+        Vagrantfile.mac
+        Vagrantfile.original
+        Vagrantfile.win10
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git add .
+warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.2nodewin10.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.mac.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.original.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.win10.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git commit -m "Initial commit"
+[master (root-commit) a56860b] Initial commit
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.2nodewin10.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.mac.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.original.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in Vagrantfile.win10.
+The file will have its original line endings in your working directory.
+ 7 files changed, 434 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 Vagrantfile
+ create mode 100644 Vagrantfile.2nodewin10
+ create mode 100644 Vagrantfile.mac
+ create mode 100644 Vagrantfile.original
+ create mode 100644 Vagrantfile.win10
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git remote add origin https://github.com/cldeluna/vagrantfile-n9kv.git
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git push -u origin master
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 3.47 KiB | 0 bytes/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/cldeluna/vagrantfile-n9kv.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ history
+  278  vi Vagrantfile
+  279  ls
+  280  exit
+  281  ls
+  282  cd D:
+  283  ls
+  284  cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+  285  ls
+  286  cd scripts/
+  287  ls
+  288  cd vagrant/
+  289  ls
+  290  cd ios-xe
+  291  ls
+  292  git status
+  293  vi Vagrantfile
+  294  git add Vagrantfile
+  295  git commit -m "Updates to 3-rtr Vagrantfile"
+  296  git push
+  297  cd ..
+  298  ls
+  299  cd ..
+  300  ls
+  301  cd python/
+  302  ls
+  303  cd 2016
+  304  ls
+  305  cd PyNetA/
+  306  ls
+  307  git status
+  308  cd week2
+  309  ls
+  310  git status
+  311  cd ..
+  312  ls
+  313  mkdir week5
+  314  ls
+  315  git status
+  316  ls
+  317  vagrant box list
+  318  pwd
+  319  cd ..
+  320  ls
+  321  cd ..
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd vagrant/
+  326  ls
+  327  mkdir veos
+  328  ls
+  329  cd veos
+  330  ls
+  331  pwd
+  332  ls ~/Downloads/*.box
+  333  vagrant box add --name vEOS-lab-4.16.6M ~/Downloads/vEOS-lab-4.16.6M-virtualbox.box
+  334  vagrant box list
+  335  vagrant init vEOS-lab-4.16.6M
+  336  vi Vagrantfile
+  337  vagrant up
+  338  vagrant plugin install vagrant-vbguest
+  339  vagrant reload
+  340  vagrant status
+  341  vagrant status
+  342  vagrant up
+  343  vagrant status
+  344  vagrant halt
+  345  vagrant destroy
+  346  vagrant up
+  347  vagrant
+  348  vagrant status
+  349  vagrant destroy
+  350  vi Vagrantfile
+  351  vagrant up
+  352  vagrant up
+  353  vagrant status
+  354  vagrant up
+  355  vagrant status
+  356  vagrant halt
+  357  vagrant destroy
+  358  mv Vagrantfile Vagrantfile.cs01
+  359  ls
+  360  history
+  361  vagrant init vEOS-lab-4.16.6M
+  362  ls
+  363  vagrant up
+  364  vagrant ssh-config
+  365  vagrant status
+  366  vagrant ssh
+  367  vagrant halt
+  368  ls
+  369  mv Vagrantfile.txt Vagrantfile
+  370  ls
+  371  vagrant up
+  372  cd ~/keys
+  373  cd ~/
+  374  ls
+  375  ls -al
+  376  cd .ssh/
+  377  ls
+  378  pwd
+  379  cd ..
+  380  ls
+  381  ls -al
+  382  cd .vagrant.d/
+  383  ls
+  384  ls -al
+  385  ls
+  386  cd ~/
+  387  ls
+  388  cd d:
+  389  ls
+  390  cd ~/.ssh/
+  391  ls
+  392  cd id_rsa.pub
+  393  ls
+  394  ls -al
+  395  cd d:
+  396  cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+  397  cd scripts/
+  398  ls
+  399  cd vagrant/
+  400  ls
+  401  cd Vveo
+  402  ls
+  403  cd veos/
+  404  ls
+  405  vagrant up
+  406  vagrant up
+  407  pwd
+  408  cd ~/.vagrant.d/
+  409  ls
+  410  pwd
+  411  cd d:
+  412  cd Dropbox\ \(Indigo\ Wire\ Networks\)/scripts/vagrant/veos/
+  413  ls
+  414  vagrant satus
+  415  vagrant status
+  416  vagrant up
+  417  vagrant up
+  418  vagrant status
+  419  vagrant destroy
+  420  vagrant up
+  421  vagrant
+  422  vagrant status
+  423  vagrant up
+  424  vagrant status
+  425  vagrant ssh
+  426  vagrant ssh -c FastCli
+  427  vagrant ssh -c FastCli -p 15 -c "configure"
+  428  vagrant ssh
+  429  vagrant halt
+  430  vagrant destroy
+  431  vagrant up
+  432  vagrant up
+  433  vagrant up
+  434  vagrant up
+  435  vagrant status
+  436  vagrant ssh
+  437  vagrant halt
+  438  vagrant destroy
+  439  ls
+  440  rm insecure_private_key
+  441  ls
+  442  cp Vagrantfile Vagrantfile.cs01.2
+  443  cp Vagrantfile.default Vagrantfile
+  444  ls
+  445  vagrant up
+  446  vagrant halt
+  447  vagrant destroy
+  448  ls
+  449  vagrant up
+  450  vagrant status
+  451  vagrant ssh-config
+  452  vagrant ssh
+  453  vagrant destroy
+  454  ls
+  455  cp Vagrantfile.default Vagrantfile
+  456  ls
+  457  vagrant up
+  458  vagrant up
+  459  vagrant destroy
+  460  vagrant destroy
+  461  vagrant up
+  462  vagrant status
+  463  vagrant ssh
+  464  vagrant halt
+  465  vagrant distroy
+  466  ssh-keygen
+  467  pwd
+  468  ssh-keygen
+  469  ls
+  470  pwd
+  471  ls -al
+  472  /
+  473  vagrant status
+  474  vagrant up
+  475  vagrant ssh-config
+  476  vagrant ssh
+  477  vagrant ssh
+  478  vagrant halt
+  479  ls
+  480  vagrant up
+  481  vagrant status
+  482  vagrant ssh veos-csw01
+  483  vagrant reload
+  484  vagrant reload
+  485  vagrant status
+  486  vagrant halt
+  487  vagrant up
+  488  vagrant status
+  489  vagrant ssh-config
+  490  ls
+  491  rm insecure_private_key
+  492  ls
+  493  vagrant reload
+  494  vagrant status
+  495  vagrant reload
+  496  vagrant status
+  497  vagrant up
+  498  vagrant ssh-config
+  499  vagrant ssh
+  500  exit
+  501  pwd
+  502  cd c:
+  503  ls
+  504  pwd
+  505  cd d:
+  506  ls
+  507  cd Dropbox\ \(Indigo\ Wire\ Networks\)/
+  508  ls
+  509  cd scripts/
+  510  ls
+  511  cd docker
+  512  ls
+  513  cd trusty-ansible/
+  514  ls
+  515  git status
+  516  ls -al
+  517  rm trusty-ansible-image/
+  518  rm -r trusty-ansible-image/
+  519  ls
+  520  docker images
+  521  ls
+  522  ls -al
+  523  cat Dockerfile
+  524  cd ..
+  525  ls
+  526  git status
+  527  cd trusty-ansible/
+  528  ls
+  529  mkdir tmp
+  530  cd tmp
+  531  ls
+  532  cd ..
+  533  cd ..
+  534  cd ..
+  535  cd python/
+  536  ls
+  537  cd 2016
+  538  ls
+  539  cd PyNetACert/
+  540  ls
+  541  cd week5
+  542  ls
+  543  ls
+  544  git status
+  545  git status
+  546  git add access_switch*
+  547  git status
+  548  git add ./CFG*
+  549  git status
+  550  cd CFG
+  551  ls
+  552  git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+  553  git add access_switch*
+  554  cd ..
+  555  git add access_switch*
+  556  git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+  557  git push -u origin master
+  558  git add access_switch*
+  559  git commit -m "Week5/Class5 Ansible Playbooks for Exercises 1-3"
+  560  git push -u origin master
+  561  git status
+  562  git add README.md
+  563  git commit -m "Updated README"
+  564  git push -u origin master
+  565  cd ..
+  566  ls
+  567  cd week6
+  568  ls
+  569  git status
+  570  git add week6*
+  571  git add README.md
+  572  git add cisco_acl.txt
+  573  git commit -m "Week6 Exercises - all working"
+  574  git push -u origin master
+  575  ls
+  576  cd ..
+  577  cd week7
+  578  ls
+  579  git status
+  580  ls
+  581  git add argparse_action.py
+  582  git add arista*
+  583  git add README.md
+  584  git commit -m "Week7 exercises from non-Cert class"
+  585  git push -u origin master
+  586  cd ..
+  587  cd ..
+  588  cd ..
+  589  cd ..
+  590  cd vagrant/
+  591  ls
+  592  cd ios-xr
+  593  ls
+  594  cd download/
+  595  ls
+  596  cd ..
+  597  ls
+  598  vi Vagrantfile
+  599  cd ..
+  600  ls
+  601  cd csr1kv/
+  602  ls
+  603  vi Vagrantfile
+  604  cd ..
+  605  ls
+  606  cd ios-xe/
+  607  ls
+  608  vi Vagrantfile
+  609  vagrant status
+  610  ls
+  611  cd ..
+  612  ls
+  613  cd csr1kv/
+  614  ls
+  615  cat Vagrantfile
+  616  vagrant status
+  617  vagrant up
+  618  vagrant box
+  619  vagrant box list
+  620  vagrant up
+  621  ls
+  622  vi Vagrantfile
+  623  vagrant up
+  624  vagrant up
+  625  vagrant up
+  626  vagrant up
+  627  ls
+  628  vi Vagrantfile
+  629  vagrant up
+  630  vi Vagrantfile
+  631  vagrant up
+  632  vi Vagrantfile
+  633  vagrant destroy
+  634  vagrant up
+  635  vagrant status
+  636  vagrant destroy
+  637  vagrant status
+  638  vagrant status
+  639  cd ..
+  640  ls
+  641  cd ..
+  642  l
+  643  ls
+  644  cd docker
+  645  ls
+  646  cd trusty-ansible/
+  647  ls
+  648  cd tmp
+  649  ls
+  650  git status
+  651  git add .
+  652  git commit -m "Added VOLUME"
+  653  git push -u origin  master
+  654  git push -f origin  master
+  655  cd ..
+  656  cd ..
+  657  cd ..
+  658  ls
+  659  cd vagrant/
+  660  ls
+  661  mkdir nxosv
+  662  ls
+  663  cd nxosv
+  664  vagrant box  --list
+  665  vagrant box list
+  666  ls
+  667  ls
+  668  vagrant box add ?
+  669  vagrant box add --help
+  670  ls
+  671  vagrant box add --name nxosv7.03(I5)1 nxosv-final.7.0.3.I5.1.box
+  672  vagrant box add --name nxosv7.03-I5-1 nxosv-final.7.0.3.I5.1.box
+  673  vagrant box list
+  674  vagrant up
+  675  ls
+  676  vagrant up nxosv7.03-I5-1
+  677  vagrant init nxosv7.03-I5-1
+  678  vi Vagrant
+  679  ls
+  680  vi Vagrantfile
+  681  ls
+  682  rm Vagrantfile
+  683  ls
+  684  vagrant box add --name n9kv1 nxosv-final.7.0.3.I5.1.box
+  685  vagrant box list
+  686  vagrant init n9kv1
+  687  cp Vagrantfile Vagrantfile.original
+  688  ls
+  689  cat Vagrantfile
+  690  vagrant up
+  691  vagrant up
+  692  vagrant up
+  693  vagrant up
+  694  vagrant up
+  695  vagrant status
+  696  vagrant up
+  697  ls
+  698  rm Vagrantfile
+  699  vagrant box list
+  700  vagrant init n9kv1
+  701  ls
+  702  cat Vagrantfile
+  703  vagrant up
+  704  ls
+  705  cp Vagrantfile.2node Vagrantfile
+  706  cat Vagrantfile
+  707  vagrant up
+  708  vagrant up
+  709  vagrant up
+  710  vagrant up
+  711  vagrant status
+  712  vagrant up
+  713  vagrant halt
+  714  vagrant destroy
+  715  vagrant up
+  716  vagrant ssh
+  717  vagrant status
+  718  vagrant status n9kv1
+  719  vagrant ssh n9kv1
+  720  vagrant ssh config
+  721  vagrant ssh n9kv1
+  722  vagrant up
+  723  vagrant up
+  724  vagrant halt
+  725  vagrant halt n9kv1
+  726  vagrant destroy n9kv1
+  727  vagrant up
+  728  vagrant up
+  729  vagrant up
+  730  vagrant up
+  731  vagrant up
+  732  vagrant up
+  733  vagrant up
+  734  vagrant up
+  735  vagrant up
+  736  vagrant up
+  737  vagrant halt
+  738  vagrant destroy
+  739  vagrant up
+  740  vagrant up
+  741  vagrant status
+  742  vagrant halt
+  743  vagrant destroy
+  744  vagrant up
+  745  vagrant up
+  746  vagrant halt
+  747  vagrant status
+  748  vagrant up
+  749  vagrant halt
+  750  vagrant destroy
+  751  vagrant up
+  752  vagrant halt
+  753  vagrant destroy
+  754  history
+  755  git status
+  756  ls
+  757  pwd
+  758  ls -al
+  759  git init
+  760  git status
+  761  vi .gitignore
+  762  git status
+  763  vi .gitignore
+  764  git status
+  765  mv Vagrantfile.2nodewin10
+  766  mv Vagrantfile.2node  Vagrantfile.2nodewin10
+  767  ls
+  768  ls -al
+  769  git status
+  770  git status
+  771  git add .
+  772  git commit -m "Initial commit"
+  773  git status
+  774  git status
+  775  git remote add origin https://github.com/cldeluna/vagrantfile-n9kv.git
+  776  git push -u origin master
+  777  history
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ pwd
+/d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git add .
+warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git commit -m "Initial commit"
+[master warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory.
+44e0fc2] Initial commit
+ Committer: Claudia de Luna <Claudia de Luna>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+warning: CRLF will be replaced by LF in README.md.
+The file will have its original line endings in your working directory.
+ 1 file changed, 19 insertions(+)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 629 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/cldeluna/vagrantfile-n9kv.git
+   a56860b..44e0fc2  master -> master
+Branch master set up to track remote branch master from origin.
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ vagrant box list
+CumulusCommunity/cumulus-vx                           (virtualbox, 3.0.1)
+IOS-XRv                                               (virtualbox, 0)
+cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
+jptoto/Windows2012R2                                  (virtualbox, 1.0.1)
+n9kv1                                                 (virtualbox, 0)
+npalm/mint17-amd64-cinnamon                           (virtualbox, 2016.01.19)
+nrel/CentOS-6.5-x86_64                                (virtualbox, 1.2.0)
+nxosv7.03-I5-1                                        (virtualbox, 0)
+terrywang/archlinux                                   (virtualbox, 1.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160714.0.0)
+ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
+vEOS-lab-4.16.6M                                      (virtualbox, 0)
+vagrant-veos                                          (virtualbox, 0)
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$ ls
+nxosv-final.7.0.3.I5.1.box  Vagrantfile             Vagrantfile.mac       Vagrantfile.win10
+README.md                   Vagrantfile.2nodewin10  Vagrantfile.original
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv (master)
+$
