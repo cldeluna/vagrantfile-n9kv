@@ -1,4 +1,4 @@
-# Vagrantfile for Cisco Nexus 9000v
+# Vagrantfiles for Cisco Nexus 9000v
 
 Configuration Notes
 
@@ -18,9 +18,66 @@ vagrant box list
 vagrant init n9kv1
 
 ```
+
+The vagrant box add command adds a box named "n9kv1" based on the *nxosv-final.7.0.3.I5.1.box* box image to your box repository.
 The vagrant init command generates a single node, uncustomized VM instance.  This can be useful in certain situations and so I always save it as Vagrantfile.original.
 
+Claudia@Mac-mini:~/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv$ vagrant box list
+cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
+**n9kv1                                                 (virtualbox, 0)**
+ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
+vEOS-lab-4.16.6M                                      (virtualbox, 0)
+Claudia@Mac-mini:~/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv$ 
+
+## Vagrantfiles
+
+
 Note: Started with Vagrantfile example from Configuration Notes
+
+Out of the box, the Vagrantfile provided in the examples (Vagrantfile.mac) will error out on the "vagrant up" command because the box itself has the named pipe hardcoded as /tmp/test which is using the linux convention.
+
+Also out of the box, you can't ssh into the VM and so this will need some work.  Basically its the same provisioning problem as that found on the csr1kv.
+
+The Vagrantfile.win10 addresses the named pipe issue and you can actually use Putty to serial to the named pipe, break out of POAP, and but on a base confir.  The second node does not come up so that will take some troubleshooting and neither can be sshed into.
+
+Original Sammple Vagrantfile on Windows 10 Pro system:
+
+```
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+$ vagrant up
+Bringing machine 'n9kv1' up with 'virtualbox' provider...
+Bringing machine 'n9kv2' up with 'virtualbox' provider...
+==> n9kv1: Clearing any previously set forwarded ports...
+==> n9kv1: Clearing any previously set network interfaces...
+==> n9kv1: Specific bridge 'en0: Ethernet' not found. You may be asked to specify
+==> n9kv1: which network to bridge to.
+==> n9kv1: Preparing network interfaces based on configuration...
+    n9kv1: Adapter 1: nat
+    n9kv1: Adapter 2: bridged
+    n9kv1: Adapter 3: intnet
+    n9kv1: Adapter 4: intnet
+    n9kv1: Adapter 5: intnet
+    n9kv1: Adapter 6: intnet
+    n9kv1: Adapter 7: intnet
+    n9kv1: Adapter 8: intnet
+    n9kv1: Adapter 9: intnet
+==> n9kv1: Forwarding ports...
+    n9kv1: 80 (guest) => 8080 (host) (adapter 1)
+    n9kv1: 22 (guest) => 2222 (host) (adapter 1)
+==> n9kv1: Running 'pre-boot' VM customizations...
+==> n9kv1: Booting VM...
+There was an error while executing `VBoxManage`, a CLI used by Vagrant
+for controlling VirtualBox. The command and stderr is shown below.
+
+Command: ["startvm", "ed4fadf7-4a55-4760-b613-a8908589ca57", "--type", "headless"]
+
+**Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)**
+VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
+
+claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
+```
+
+
 
 Master Repository
 claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
@@ -44,53 +101,6 @@ drwxr-xr-x 1 claud 197609         0 Nov 29 05:49 .vagrant/
 
 ```
 
-##Synopsis
-
-
-##Code Example
-
-
-##Motivation
 
 
 
-##Installation
-
-
-
-##API Reference
-
-##None
-
-##Tests
-
-TBD
-
-
-##Contributors
-
-This is currently an individual effort.
-
-##Contributions
-
-Much went into 
-
-##License
-
-TBD
-
-
-Will become a heading
-==============
-
-Will become a sub heading
---------------
-
-*This will be Italic*
-
-**This will be Bold**
-
-- This will be a list item
-- This will be a list item
-
-    Add a indent and this will end up as code
