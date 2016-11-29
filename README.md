@@ -25,7 +25,7 @@ The vagrant init command generates a single node, uncustomized VM instance.  Thi
 ```
 Claudia@Mac-mini:~/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv$ vagrant box list
 cisco-csr1kv-csr1000v-universalk9.03.16.03.S.155-3.S3 (virtualbox, 0)
-**n9kv1                                                 (virtualbox, 0)**
+n9kv1                                                 (virtualbox, 0)
 ubuntu/trusty64                                       (virtualbox, 20160908.0.0)
 vEOS-lab-4.16.6M                                      (virtualbox, 0)
 Claudia@Mac-mini:~/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv$ 
@@ -36,11 +36,11 @@ Claudia@Mac-mini:~/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv$
 
 Note: Started with Vagrantfile example from Configuration Notes
 
-Out of the box, the Vagrantfile provided in the examples (Vagrantfile.mac) will error out on the "vagrant up" command because the box itself has the named pipe hardcoded as /tmp/test which is using the linux convention.
+Out of the box, the Vagrantfile provided in the examples (Vagrantfile.mac) will error out on a Windows system on the "vagrant up" command because the box itself has the named pipe hardcoded as /tmp/test which is using the linux convention.  On a Mac that part does not error out.
 
-Also out of the box, you can't ssh into the VM and so this will need some work.  Basically its the same provisioning problem as that found on the csr1kv.
+Also out of the box on either Mac or Windows, you can't ssh into the VM and so this will need some work.  Basically its the same provisioning problem as that found on the csr1kv.
 
-The Vagrantfile.win10 addresses the named pipe issue and you can actually use Putty to serial to the named pipe, break out of POAP, and but on a base confir.  The second node does not come up so that will take some troubleshooting and neither can be sshed into.
+The Vagrantfile.win10 addresses the named pipe issue and you can actually use Putty to serial to the named pipe on the first node, break out of POAP, and but on a base configuration.  The second node does not come up so that will take some troubleshooting and neither can be sshed into.
 
 Original Sammple Vagrantfile on Windows 10 Pro system:
 
@@ -73,7 +73,7 @@ for controlling VirtualBox. The command and stderr is shown below.
 
 Command: ["startvm", "ed4fadf7-4a55-4760-b613-a8908589ca57", "--type", "headless"]
 
-**Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)**
+Stderr: VBoxManage.EXE: error: NamedPipe#0 failed to create named pipe /tmp/test (VERR_INVALID_NAME)
 VBoxManage.EXE: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole
 
 claud@DESKTOP-S41OCM2 MINGW64 /d/Dropbox (Indigo Wire Networks)/scripts/vagrant/nxosv
